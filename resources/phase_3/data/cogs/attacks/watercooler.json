@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:watercooler",
+    "display_name": "#CogAttackWatercooler",
+    "animation": "watercooler",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:watercooler"
+    ]
+}

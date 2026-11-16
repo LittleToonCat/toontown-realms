@@ -1,0 +1,31 @@
+{
+    "head_models": [
+        {
+            "path": "phase_3.5/models/char/suitC-heads",
+            "node": "tightwad",
+            "texture": "phase_3.5/maps/ttrm_t_ene_head_statueBottomFeeder.png"
+        }
+    ],
+    "body_type": 2,
+    "scale": 0.966183575,
+    "height": 4.91,
+    "torso_texture": "phase_3.5/maps/ttrm_t_ene_blazer_statue.png",
+    "leg_texture": "phase_3.5/maps/ttrm_t_ene_leg_statue.png",
+    "arm_texture": "phase_3.5/maps/ttrm_t_ene_sleeve_statue.png",
+	"wrist_texture": "phase_3.5/maps/ttrm_t_ene_sleeve_statue.png",
+	"shoe_texture": "phase_3.5/maps/ttrm_t_ene_arm_statue.png",
+    "name": "#SuitStatueBottomFeeder",
+    "name_singular": "#SuitStatueBottomFeederS",
+    "name_plural": "#SuitStatueBottomFeederP",
+	"hand_texture": "phase_3.5/maps/ttrm_t_ene_hand_statue.png",
+    "hand_color": [1.0, 1.0, 1.0, 1.0],
+    "quote_sets": [
+        "bf",
+        "default_brushoffs",
+        "default_cog_building_boss_taunts",
+        "default_da_office_boss_taunts",
+        "default_da_office_boss_minion_taunts",
+        "default_explode",
+        "default_fire"
+    ]
+}

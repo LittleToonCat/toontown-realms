@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:clip_on_tie",
+    "display_name": "#CogAttackClipOnTie",
+    "animation": "throw-paper",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:clip_on_tie"
+    ]
+}

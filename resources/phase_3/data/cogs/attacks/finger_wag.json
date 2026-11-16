@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:finger_wag",
+    "display_name": "#CogAttackFingerWag",
+    "animation": "finger-wag",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:finger_wag"
+    ]
+}

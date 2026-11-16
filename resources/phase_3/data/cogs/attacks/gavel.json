@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:gavel",
+    "display_name": "#CogAttackGavel",
+    "animation": "gavel",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:gavel"
+    ]
+}

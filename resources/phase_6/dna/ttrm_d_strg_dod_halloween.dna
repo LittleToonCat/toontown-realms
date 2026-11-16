@@ -1,0 +1,16 @@
+hood_model "phase_6/models/props/tt_m_ara_DD_palmtree_topflat_halloween" [
+	store_node [ "holiday_prop" "prop_palm_tree_topflat"]
+	]
+
+hood_model "phase_6/models/props/tt_m_ara_DD_streetlight_halloween" [
+	store_node [ "holiday_prop" "streetlight_DD_left"]
+	store_node [ "holiday_prop" "streetlight_DD_right"]
+	]
+	
+hood_model "phase_6/models/modules/ttoff_m_ara_dod_gagshop_halloween" [
+	store_node [ "toon_landmark" "toon_landmark_dod_gagshop_halloween" "" ]
+	]
+	
+hood_model "phase_5.5/models/estate/ttoff_r_ara_pty_tubeCogHalloween" [
+	store_node [ "prop" "animated_prop_HalloweenBloodsuckerAnimatedProp" "" ]
+	]

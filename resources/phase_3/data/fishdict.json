@@ -1,0 +1,765 @@
+{
+    "0": {
+        "names": [
+            "Balloon Fish",
+            "Hot Air Balloon Fish",
+            "Weather Balloon Fish",
+            "Water Balloon Fish",
+            "Red Balloon Fish"
+        ],
+        "weightMin": [
+            1,
+            1,
+            3,
+            3,
+            1
+        ],
+        "weightMax": [
+            3,
+            1,
+            5,
+            5,
+            5
+        ],
+        "rarity": [
+            1,
+            4,
+            5,
+            3,
+            2
+        ],
+        "zoneList": [
+            [
+                1
+            ],
+            [
+                2000,
+                1
+            ],
+            [
+                2300,
+                3000
+            ],
+            [
+                2100,
+                5000
+            ],
+            [
+                2200,
+                2000
+            ]
+        ]
+    },
+    "2": {
+        "names": [
+            "Cat Fish",
+            "Siamese Cat Fish",
+            "Alley Cat Fish",
+            "Tabby Cat Fish",
+            "Tom Cat Fish"
+        ],
+        "weightMin": [
+            2,
+            2,
+            5,
+            2,
+            5
+        ],
+        "weightMax": [
+            6,
+            6,
+            11,
+            6,
+            11
+        ],
+        "rarity": [
+            1,
+            9,
+            4,
+            3,
+            2
+        ],
+        "zoneList": [
+            [
+                5000,
+                1
+            ],
+            [
+                5100,
+                5000
+            ],
+            [
+                9100
+            ],
+            [
+                5000,
+                16000
+            ],
+            [
+                9000,
+                16000
+            ]
+        ]
+    },
+    "4": {
+        "names": [
+            "Clown Fish",
+            "Sad Clown Fish",
+            "Party Clown Fish",
+            "Circus Clown Fish"
+        ],
+        "weightMin": [
+            2,
+            2,
+            2,
+            2
+        ],
+        "weightMax": [
+            8,
+            8,
+            8,
+            8
+        ],
+        "rarity": [
+            1,
+            4,
+            2,
+            6
+        ],
+        "zoneList": [
+            [
+                2000,
+                1
+            ],
+            [
+                2000,
+                1
+            ],
+            [
+                2000,
+                1
+            ],
+            [
+                2000,
+                4000
+            ]
+        ]
+    },
+    "6": {
+        "names": [
+            "Frozen Fish"
+        ],
+        "weightMin": [
+            8
+        ],
+        "weightMax": [
+            12
+        ],
+        "rarity": [
+            1
+        ],
+        "zoneList": [
+            [
+                3000
+            ]
+        ]
+    },
+    "8": {
+        "names": [
+            "Star Fish",
+            "Five Star Fish",
+            "Rock Star Fish",
+            "Shining Star Fish",
+            "All Star Fish"
+        ],
+        "weightMin": [
+            1,
+            2,
+            5,
+            1,
+            1
+        ],
+        "weightMax": [
+            5,
+            6,
+            10,
+            5,
+            5
+        ],
+        "rarity": [
+            1,
+            2,
+            5,
+            7,
+            10
+        ],
+        "zoneList": [
+            [
+                1
+            ],
+            [
+                4000,
+                1
+            ],
+            [
+                4000,
+                1
+            ],
+            [
+                16000,
+                1
+            ],
+            [
+                16000,
+                1
+            ]
+        ]
+    },
+    "10": {
+        "names": [
+            "Holey Mackerel"
+        ],
+        "weightMin": [
+            6
+        ],
+        "weightMax": [
+            10
+        ],
+        "rarity": [
+            9
+        ],
+        "zoneList": [
+            [
+                16000,
+                1
+            ]
+        ]
+    },
+    "12": {
+        "names": [
+            "Dog Fish",
+            "Bull Dog Fish",
+            "Hot Dog Fish",
+            "Dalmatian Dog Fish",
+            "Puppy Dog Fish"
+        ],
+        "weightMin": [
+            7,
+            18,
+            1,
+            3,
+            1
+        ],
+        "weightMax": [
+            15,
+            20,
+            5,
+            7,
+            2
+        ],
+        "rarity": [
+            1,
+            6,
+            5,
+            4,
+            2
+        ],
+        "zoneList": [
+            [
+                1000,
+                1
+            ],
+            [
+                1000,
+                16000
+            ],
+            [
+                1000,
+                16000
+            ],
+            [
+                1000,
+                16000
+            ],
+            [
+                1000,
+                1
+            ]
+        ]
+    },
+    "14": {
+        "names": [
+            "Amore Eel",
+            "Electric Amore Eel"
+        ],
+        "weightMin": [
+            2,
+            2
+        ],
+        "weightMax": [
+            6,
+            6
+        ],
+        "rarity": [
+            1,
+            3
+        ],
+        "zoneList": [
+            [
+                5000,
+                16000,
+                1
+            ],
+            [
+                5000,
+                16000
+            ]
+        ]
+    },
+    "16": {
+        "names": [
+            "Nurse Shark",
+            "Clara Nurse Shark",
+            "Florence Nurse Shark"
+        ],
+        "weightMin": [
+            4,
+            4,
+            4
+        ],
+        "weightMax": [
+            12,
+            12,
+            12
+        ],
+        "rarity": [
+            5,
+            7,
+            8
+        ],
+        "zoneList": [
+            [
+                4000,
+                1
+            ],
+            [
+                4200,
+                4000
+            ],
+            [
+                4300,
+                4000
+            ]
+        ]
+    },
+    "18": {
+        "names": [
+            "King Crab",
+            "Alaskan King Crab",
+            "Old King Crab"
+        ],
+        "weightMin": [
+            2,
+            5,
+            4
+        ],
+        "weightMax": [
+            4,
+            8,
+            6
+        ],
+        "rarity": [
+            3,
+            7,
+            8
+        ],
+        "zoneList": [
+            [
+                1000,
+                1
+            ],
+            [
+                3000
+            ],
+            [
+                1300
+            ]
+        ]
+    },
+    "20": {
+        "names": [
+            "Moon Fish",
+            "Full Moon Fish",
+            "Half Moon Fish",
+            "New Moon Fish",
+            "Crescent Moon Fish",
+            "Harvest Moon Fish"
+        ],
+        "weightMin": [
+            4,
+            14,
+            6,
+            1,
+            2,
+            10
+        ],
+        "weightMax": [
+            6,
+            18,
+            10,
+            1,
+            6,
+            14
+        ],
+        "rarity": [
+            1,
+            10,
+            8,
+            3,
+            6,
+            4
+        ],
+        "zoneList": [
+            [
+                9000
+            ],
+            [
+                9000
+            ],
+            [
+                9100
+            ],
+            [
+                9000
+            ],
+            [
+                9100
+            ],
+            [
+                9000,
+                5000
+            ]
+        ]
+    },
+    "22": {
+        "names": [
+            "Sea Horse",
+            "Rocking Sea Horse",
+            "Clydesdale Sea Horse",
+            "Arabian Sea Horse"
+        ],
+        "weightMin": [
+            12,
+            14,
+            14,
+            14
+        ],
+        "weightMax": [
+            16,
+            18,
+            20,
+            20
+        ],
+        "rarity": [
+            2,
+            3,
+            5,
+            7
+        ],
+        "zoneList": [
+            [
+                16000,
+                5000,
+                1
+            ],
+            [
+                16000,
+                5000,
+                1
+            ],
+            [
+                16000,
+                5000
+            ],
+            [
+                16000,
+                5000
+            ]
+        ]
+    },
+    "24": {
+        "names": [
+            "Pool Shark",
+            "Kiddie Pool Shark",
+            "Swimming Pool Shark",
+            "Olympic Pool Shark"
+        ],
+        "weightMin": [
+            9,
+            8,
+            8,
+            8
+        ],
+        "weightMax": [
+            11,
+            12,
+            12,
+            16
+        ],
+        "rarity": [
+            3,
+            5,
+            6,
+            7
+        ],
+        "zoneList": [
+            [
+                1
+            ],
+            [
+                5000,
+                1000
+            ],
+            [
+                5000,
+                1000
+            ],
+            [
+                5000,
+                1000
+            ]
+        ]
+    },
+    "26": {
+        "names": [
+            "Brown Bear Acuda",
+            "Black Bear Acuda",
+            "Koala Bear Acuda",
+            "Honey Bear Acuda",
+            "Polar Bear Acuda",
+            "Panda Bear Acuda",
+            "Kodiac Bear Acuda",
+            "Grizzly Bear Acuda"
+        ],
+        "weightMin": [
+            10,
+            10,
+            10,
+            10,
+            12,
+            14,
+            14,
+            16
+        ],
+        "weightMax": [
+            18,
+            18,
+            18,
+            18,
+            20,
+            20,
+            20,
+            20
+        ],
+        "rarity": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+        ],
+        "zoneList": [
+            [
+                3000
+            ],
+            [
+                3000
+            ],
+            [
+                3000
+            ],
+            [
+                3000
+            ],
+            [
+                3000
+            ],
+            [
+                3000
+            ],
+            [
+                3200,
+                3000
+            ],
+            [
+                3100,
+                3000
+            ]
+        ]
+    },
+    "28": {
+        "names": [
+            "Cutthroat Trout",
+            "Captain Cutthroat Trout",
+            "Scurvy Cutthroat Trout"
+        ],
+        "weightMin": [
+            2,
+            4,
+            4
+        ],
+        "weightMax": [
+            10,
+            10,
+            10
+        ],
+        "rarity": [
+            2,
+            6,
+            7
+        ],
+        "zoneList": [
+            [
+                1000,
+                1
+            ],
+            [
+                1100,
+                1000
+            ],
+            [
+                1200,
+                1000
+            ]
+        ]
+    },
+    "30": {
+        "names": [
+            "Piano Tuna",
+            "Grand Piano Tuna",
+            "Baby Grand Piano Tuna",
+            "Upright Piano Tuna",
+            "Player Piano Tuna"
+        ],
+        "weightMin": [
+            13,
+            16,
+            12,
+            12,
+            12
+        ],
+        "weightMax": [
+            17,
+            20,
+            18,
+            18,
+            18
+        ],
+        "rarity": [
+            5,
+            10,
+            9,
+            6,
+            7
+        ],
+        "zoneList": [
+            [
+                4000,
+                1
+            ],
+            [
+                4100,
+                4000
+            ],
+            [
+                4300,
+                4000
+            ],
+            [
+                4000
+            ],
+            [
+                4000
+            ]
+        ]
+    },
+    "32": {
+        "names": [
+            "Peanut Butter & Jellyfish",
+            "Grape PB&J Fish",
+            "Crunchy PB&J Fish",
+            "Strawberry PB&J Fish",
+            "Concord Grape PB&J Fish"
+        ],
+        "weightMin": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "weightMax": [
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "rarity": [
+            2,
+            3,
+            4,
+            5,
+            10
+        ],
+        "zoneList": [
+            [
+                2000,
+                16000,
+                1
+            ],
+            [
+                3000,
+                16000,
+                1
+            ],
+            [
+                5000,
+                16000
+            ],
+            [
+                9000,
+                16000
+            ],
+            [
+                3000,
+                9000
+            ]
+        ]
+    },
+    "34": {
+        "names": [
+            "Devil Ray"
+        ],
+        "weightMin": [
+            1
+        ],
+        "weightMax": [
+            20
+        ],
+        "rarity": [
+            10
+        ],
+        "zoneList": [
+            [
+                9000,
+                19000,
+                6100,
+                1
+            ]
+        ]
+    }
+}

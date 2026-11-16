@@ -1,0 +1,5 @@
+group "plains_sz" [
+ visgroup "30000:safe_zone" [
+  vis [   "30000:safe_zone"   ]
+ ]
+]

@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:downsize",
+    "display_name": "#CogAttackDownsize",
+    "animation": "magic2",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:downsize"
+    ]
+}

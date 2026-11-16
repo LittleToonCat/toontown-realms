@@ -1,0 +1,34 @@
+{
+	"tier": 0,
+	"type": "continue",
+	"headline": null,
+	"objectives": [
+		{
+			"type": "recover_items",
+			"where": "toontown_central",
+			"item_id": 20,
+			"recovery_chance": 100,
+			"cog_type": "any"
+		}
+	],
+	"giver_npc": "hq_anywhere",
+	"return_npc": "giver",
+	"reward": null,
+	"dialog": {
+		"quest": [
+			"Did you know you have your very own Toon House?",
+			"Clarabelle Cow runs a phone catalog where you can order furniture to decorate your house.",
+			"You can also buy SpeedChat phrases, clothing, and other fun things!",
+			"I'll tell Clarabelle to send you your first catalog now",
+			"You get a catalog with new items every week!",
+			"Go to your home and use your phone to call Clarabelle."
+		],
+		"incomplete_progress": "Go home and use your phone to call Clarabelle.",
+		"complete": [
+			"Hope you have fun ordering things from Clarabelle!",
+			"I just finished redecorating my house. It looks Toontastic!",
+			"Keep doing ToonTasks to get more rewards!"
+		]
+	},
+	"next_quest": "@endtier"
+}

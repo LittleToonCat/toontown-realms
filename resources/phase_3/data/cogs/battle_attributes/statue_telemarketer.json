@@ -1,0 +1,469 @@
+{
+    "level": 7,
+    "hp_by_level": {
+        "1": 18,
+        "2": 36,
+        "3": 60,
+        "4": 90,
+        "5": 126,
+        "6": 168,
+        "7": 216,
+        "8": 270,
+        "9": 330,
+        "10": 396,
+        "11": 468,
+        "12": 600
+    },
+    "gag_accuracy_decrement_by_level": {
+        "1": 2,
+        "2": 5,
+        "3": 10,
+        "4": 15,
+        "5": 20,
+        "6": 25,
+        "7": 30,
+        "8": 35,
+        "9": 40,
+        "10": 45,
+        "11": 50,
+        "12": 55
+    },
+    "level_range": [
+        1,
+        12
+    ],
+	"status_effects": {
+		"ttrealms:tenure": {
+			"rounds": -1
+		},
+		"ttrealms:power_spot": {
+			"rounds": -1
+		}
+	},
+    "attacks": {
+        "ttrealms:clip_on_tie": {
+            "damage": {
+                "type": "FIXED",
+                "value": 11
+            },
+            "accuracy": 75,
+            "chance": 15,
+            "attributes_by_level": {
+                "1": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "2": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 6
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "3": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 6
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "4": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 7
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "5": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 7
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "6": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 8
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "7": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 8
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "8": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 9
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "9": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 9
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "10": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 10
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "11": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 10
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "12": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 11
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                }
+            }
+        },
+        "ttrealms:pick_pocket": {
+            "damage": {
+                "type": "FIXED",
+                "value": 5
+            },
+            "accuracy": 75,
+            "chance": 15,
+            "attributes_by_level": {
+                "1": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "2": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "3": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "4": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "5": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "6": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "7": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "8": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "9": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "10": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "11": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                },
+                "12": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 5
+                    },
+                    "accuracy": 75,
+                    "chance": 15
+                }
+            }
+        },
+        "ttrealms:rolodex": {
+            "damage": {
+                "type": "FIXED",
+                "value": 30
+            },
+            "accuracy": 50,
+            "chance": 30,
+            "attributes_by_level": {
+                "1": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 6
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "2": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 8
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "3": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 10
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "4": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 11
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "5": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 13
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "6": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 16
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "7": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 18
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "8": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 20
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "9": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 23
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "10": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 25
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "11": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 27
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                },
+                "12": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 30
+                    },
+                    "accuracy": 50,
+                    "chance": 30
+                }
+            }
+        },
+        "ttrealms:double_talk": {
+            "damage": {
+                "type": "FIXED",
+                "value": 30
+            },
+            "accuracy": 95,
+            "chance": 40,
+            "attributes_by_level": {
+                "1": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 7
+                    },
+                    "accuracy": 75,
+                    "chance": 40
+                },
+                "2": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 8
+                    },
+                    "accuracy": 75,
+                    "chance": 40
+                },
+                "3": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 10
+                    },
+                    "accuracy": 80,
+                    "chance": 40
+                },
+                "4": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 11
+                    },
+                    "accuracy": 85,
+                    "chance": 40
+                },
+                "5": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 13
+                    },
+                    "accuracy": 90,
+                    "chance": 40
+                },
+                "6": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 16
+                    },
+                    "accuracy": 95,
+                    "chance": 40
+                },
+                "7": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 18
+                    },
+                    "accuracy": 95,
+                    "chance": 40
+                },
+                "8": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 20
+                    },
+                    "accuracy": 95,
+                    "chance": 40
+                },
+                "9": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 23
+                    },
+                    "accuracy": 95,
+                    "chance": 40
+                },
+                "10": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 26
+                    },
+                    "accuracy": 95,
+                    "chance": 40
+                },
+                "11": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 27
+                    },
+                    "accuracy": 95,
+                    "chance": 40
+                },
+                "12": {
+                    "damage": {
+                        "type": "FIXED",
+                        "value": 30
+                    },
+                    "accuracy": 95,
+                    "chance": 40
+                }
+            }
+        }
+    }
+}

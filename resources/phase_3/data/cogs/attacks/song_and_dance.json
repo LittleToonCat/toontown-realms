@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:song_and_dance",
+    "display_name": "#CogAttackSongAndDance",
+    "animation": "song-and-dance",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:song_and_dance"
+    ]
+}

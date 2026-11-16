@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:jargon",
+    "display_name": "#CogAttackJargon",
+    "animation": "speak",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:jargon"
+    ]
+}

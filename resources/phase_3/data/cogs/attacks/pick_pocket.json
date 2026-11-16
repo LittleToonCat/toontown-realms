@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:pick_pocket",
+    "display_name": "#CogAttackPickPocket",
+    "animation": "pickpocket",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:pick_pocket"
+    ]
+}

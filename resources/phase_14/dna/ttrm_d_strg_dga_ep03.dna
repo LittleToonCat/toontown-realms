@@ -1,0 +1,6 @@
+// Storage files for episode 3 (storm sellbot)
+
+// This sign is rebuilt in HD to make it better looking when the camera is right next to it
+hood_model "phase_14/models/props/ttoff_m_ara_sellbotHQSign"[
+	store_node [ "prop" "ttoff_m_ara_sellbotHQSign" "" ]
+	]

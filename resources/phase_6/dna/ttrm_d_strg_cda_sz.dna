@@ -1,0 +1,18 @@
+place_model "phase_6/models/golf/golf_outdoor_zone" [
+  	store_node [ "prop" "outdoor_zone" "" ]
+ 	]
+place_model "phase_8/models/modules/safe_zone_tunnel_DG" [
+	store_node [ "prop" "prop_safe_zone_tunnel" ]
+        ]
+
+place_model "phase_6/models/golf/chip_dale_enterance" [
+	store_node [ "prop" "prop_chip_dale_enterance" "" ]
+	]
+
+place_model "phase_6/models/golf/golf_gazebo" [
+	store_node [ "prop" "prop_golf_gazebo" "" ]
+	]
+
+place_model "phase_6/models/golf/golf_bridge" [
+	store_node [ "prop" "prop_golf_bridge" "" ]
+	]

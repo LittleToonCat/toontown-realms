@@ -1,0 +1,13 @@
+// For Cogtown Central
+hood_model "phase_14.5/models/neighborhoods/toontown_central_takeover" [
+    store_node [ "prop" "prop_cogtown_central" "" ]
+]
+
+hood_model "phase_4/models/modules/safe_zone_tunnel_TT" [
+	store_node [ "prop" "prop_safe_zone_tunnel_ctc" "" ]
+        ]
+
+// For the Toontown Fields
+hood_model "phase_14.5/models/modules/tt_ext_plains" [
+    store_node [ "prop" "prop_plains" "" ]
+]

@@ -1,0 +1,3 @@
+from .TTSCToontaskTerminal import decodeTTSCToontaskMsg
+from .TTSCCogTerminal import decodeTTSCCogMsg
+from .TTSCResistanceTerminal import decodeTTSCResistanceMsg

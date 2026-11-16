@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:fill_with_lead",
+    "display_name": "#CogAttackFillWithLead",
+    "animation": "pencil-sharpener",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:fill_with_lead"
+    ]
+}

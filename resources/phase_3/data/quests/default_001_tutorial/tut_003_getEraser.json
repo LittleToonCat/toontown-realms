@@ -1,0 +1,18 @@
+{
+	"tier": 0,
+	"type": "continue",
+	"headline": null,
+	"objectives": [
+		{
+			"type": "recover_items",
+			"where": "toontown_central",
+			"item_id": 20,
+			"recovery_chance": 100,
+			"cog_type": "any"
+		}
+	],
+	"giver_npc": "hq_anywhere",
+	"return_npc": "giver",
+	"reward": null,
+	"next_quest": "default_001_tutorial/tut_004_estateTutorial.json"
+}

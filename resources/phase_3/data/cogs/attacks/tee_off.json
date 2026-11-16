@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:tee_off",
+    "display_name": "#CogAttackTeeOff",
+    "animation": "golf-club-swing",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:tee_off"
+    ]
+}

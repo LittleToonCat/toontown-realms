@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:five_o_clock_shadow",
+    "display_name": "#CogAttackFiveOClockShadow",
+    "animation": "glower",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:five_o_clock_shadow"
+    ]
+}

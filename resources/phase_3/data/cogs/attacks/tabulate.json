@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:tabulate",
+    "display_name": "#CogAttackTabulate",
+    "animation": "phone",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:tabulate"
+    ]
+}

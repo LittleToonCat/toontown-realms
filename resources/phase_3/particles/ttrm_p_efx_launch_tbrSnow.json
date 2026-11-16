@@ -1,0 +1,85 @@
+{
+	"system": {
+		"pool_size": 2048,
+		"birth_rate": 0.02,
+		"litter_size": 1,
+		"litter_spread": 0,
+		"lifespan": 0.0,
+		"velocity_space": "local",
+		"system_grows_older": false,
+		"transform": {
+			"pos": [0.0, 0.0, 0.0],
+			"hpr": [0.0, 0.0, 0.0],
+			"scale": [1.0, 1.0, 1.0]
+		}
+	},
+	"factory": {
+		"factory_type": "zspin",
+		"lifespan_base": 4.5,
+		"lifespan_spread": 0.0,
+		"mass_base": 1.0,
+		"mass_spread": 0.0,
+		"terminal_velocity_base": 400,
+		"terminal_velocity_spread": 0.0,
+		"zspin":{
+			"initial_angle": 0.0,
+			"initial_angle_spread": 10.0,
+			"enable_angular_velocity": true,
+			"angular_velocity_base": 0.0,
+			"angular_velocity_spread": 500
+		}
+	},
+
+	"emitter": {
+		"emitter_type": "disc",
+		"emission_type": "radiate",
+		"amplitude_base": 0.1,
+		"amplitude_spread": 0.0,
+		"offset_force": [0.0, 0.0, 0.0],
+		"radiate_origin": [0.0, 0.0, 0.0],
+		"disc": {
+			"radius": 50.0
+		}
+	},
+
+	"renderer": {
+		"renderer_type": "sprite",
+		"alpha_mode": "alpha_in",
+		"alpha_base": 1.0,
+		"sprite":{
+			"textures": [
+				{
+					"model_path": "phase_8/models/props/snowflake_particle",
+					"node_path": "**/p1_2"
+				}
+			],
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"animate_x_scale": false,
+			"animate_y_scale": false,
+			"animate_angle": true,
+			"initial_scale_x": 0.03125,
+			"initial_scale_y": 0.03125,
+			"alpha_blend_mode": "linear"
+		}
+	},
+
+	"force_groups": [
+		{
+			"group_name": "gravity",
+			"forces": [
+				{
+					"force_type": "vector",
+					"magnitude": [0.0, 0.0, -1.0],
+					"amplitude": 1.5,
+					"mass": false,
+					"active": true
+				},
+				{
+					"force_type": "jitter",
+					"amplitude": 10.0,
+					"active": true
+				}
+			]
+		}
+	]
+}

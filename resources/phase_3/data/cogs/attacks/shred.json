@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:shred",
+    "display_name": "#CogAttackShred",
+    "animation": "shredder",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:shred"
+    ]
+}

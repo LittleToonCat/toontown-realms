@@ -1,0 +1,398 @@
+// Created with the Open Toontown Tools Level Editor - https://github.com/OpenToontownTools/OpenLevelEditor/
+group "donaldsDreamland" [
+ visgroup "9300" [
+  vis [   "9300"   "9301"   ]
+  prop "linktunnel_dl_9401_DNARoot" [
+   code [ "prop_neighborhood_tunnel" ]
+   pos [ 298.737 -5.07912 1.67629 ]
+   nhpr [ 270 0 0 ]
+   scale [ 1.03247 1.03247 1.03247 ]
+   sign [
+    code [ "tunnel_sign_purple" ]
+    color [ 0.376471 0.376471 0.376471 1 ]
+    pos [ 0.00229422 0 1.4148 ]
+    scale [ 1.5 1 1.5 ]
+    baseline [
+     code [ "mickey" ]
+     color [ 1 1 0 1 ]
+     pos [ 0 0 -0.83 ]
+     scale [ 1.5 1 1.5 ]
+     width [ 50 ]
+     height [ 50 ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "V" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+    ]
+    baseline [
+     code [ "mickey" ]
+     color [ 1 1 0.5 1 ]
+     pos [ 0 0 -1.8 ]
+     scale [ 0.8 1 0.8 ]
+     width [ 55.0903 ]
+     height [ 55.0903 ]
+     text [
+      letters [ "C" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "B" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "2" ]
+     ]
+    ]
+    baseline [
+     pos [ 0 0 1.6 ]
+     scale [ 2.5 1 2.5 ]
+     graphic [
+      code [ "donald_DL_SZ" ]
+     ]
+    ]
+   ]
+  ]
+  prop "BLD1_DNARoot" [
+   code [ "BLD1" ]
+   pos [ 179.986 -464.975 3.99995 ]
+   nhpr [ 105 0 0 ]
+  ]
+  prop "BLD10_DNARoot" [
+   code [ "BLD10" ]
+   pos [ 89.0624 -380.635 67 ]
+   nhpr [ 45 0 0 ]
+  ]
+  prop "BLD13_DNARoot" [
+   code [ "BLD13" ]
+   pos [ 57.2434 -426.597 67 ]
+   nhpr [ 45 0 -0 ]
+  ]
+  prop "BLD14_DNARoot" [
+   code [ "BLD14" ]
+   pos [ 124.418 -578.626 67 ]
+   nhpr [ 45 0 -0 ]
+  ]
+  prop "BLD15_DNARoot" [
+   code [ "BLD15" ]
+   pos [ -34.6821 -504.38 67 ]
+   nhpr [ 90 0 0 ]
+  ]
+  prop "BLD16_DNARoot" [
+   code [ "BLD16" ]
+   pos [ -64.6815 -572.383 170 ]
+   nhpr [ -30 0 0 ]
+  ]
+  prop "BLD17_DNARoot" [
+   code [ "BLD17" ]
+   pos [ -184.678 -529.381 67 ]
+   nhpr [ 120 0 0 ]
+  ]
+  prop "BLD18_DNARoot" [
+   code [ "BLD18" ]
+   pos [ -121.246 -429.25 67 ]
+   nhpr [ 0 0 0 ]
+  ]
+  prop "BLD20_DNARoot" [
+   code [ "BLD20" ]
+   pos [ -241.247 -459.25 67 ]
+   nhpr [ 75 0 0 ]
+  ]
+  prop "BLD4_DNARoot" [
+   code [ "BLD4" ]
+   pos [ 257.584 -391.379 3.99993 ]
+   nhpr [ 135 0 0 ]
+  ]
+  prop "BLD5_DNARoot" [
+   code [ "BLD5" ]
+   pos [ -270.476 -394.479 67 ]
+   nhpr [ 75 0 -0 ]
+  ]
+  prop "BLD8_DNARoot" [
+   code [ "BLD8" ]
+   pos [ -343.014 -452.689 67 ]
+   nhpr [ -75 0 0 ]
+  ]
+  prop "BLD9_DNARoot" [
+   code [ "BLD9" ]
+   pos [ 261.809 -536.705 150 ]
+   nhpr [ 30 0 0 ]
+  ]
+  prop "BLD14_DNARoot" [
+   code [ "BLD14" ]
+   pos [ 195.129 -613.981 67 ]
+   nhpr [ 45 0 -0 ]
+  ]
+  prop "BLD17_DNARoot" [
+   code [ "BLD17" ]
+   pos [ 81.5965 -719.756 164.001 ]
+   nhpr [ 120 0 0 ]
+  ]
+  prop "BLD20_DNARoot" [
+   code [ "BLD20" ]
+   pos [ 363.65 -433.803 65.9998 ]
+   nhpr [ 135 0 -0 ]
+  ]
+  prop "ttrm_m_ara_ddl_outcove_DNARoot" [
+   code [ "ttrm_m_ara_ddl_outcove" ]
+   pos [ 206.997 18 -4.19996 ]
+   nhpr [ -90 0 -0 ]
+   scale [ 5.29895 5.29895 5.29895 ]
+  ]
+ ]
+ visgroup "9301" [
+  vis [   "9301"   "9300"   ]
+  prop "linktunnel_dl_9000_DNARoot" [
+   code [ "prop_safe_zone_entrance_tunnel" ]
+   pos [ 175.078 -36.972 1.6795 ]
+   nhpr [ 175 0 0 ]
+   sign [
+    code [ "tunnel_sign_purple" ]
+    color [ 0.376471 0.376471 0.376471 1 ]
+    pos [ 0 0 -2.9 ]
+    scale [ 1.5 1 1.5 ]
+    baseline [
+     code [ "mickey" ]
+     color [ 1 1 0 1 ]
+     pos [ 0 0 -0.83 ]
+     scale [ 1.5 1 1.5 ]
+     width [ 50 ]
+     height [ 50 ]
+     text [
+      letters [ "P" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "D" ]
+     ]
+    ]
+    baseline [
+     code [ "mickey" ]
+     color [ 1 1 0.5 1 ]
+     pos [ 0 0 -1.8 ]
+     scale [ 0.8 1 0.8 ]
+     width [ 55.0903 ]
+     height [ 55.0903 ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ "'" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "D" ]
+     ]
+    ]
+    baseline [
+     pos [ 0 0 1.6 ]
+     scale [ 2.5 1 2.5 ]
+     graphic [
+      code [ "donald_DL_SZ" ]
+     ]
+    ]
+   ]
+  ]
+ ]
+ prop "placeholder_arcade_DNARoot" [
+  code [ "placeholder_arcade" ]
+  pos [ 162.883 99.7717 10.07 ]
+  nhpr [ 270 0 0 ]
+  scale [ 2.91559 2.91559 2.91559 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 193.821 -53.6002 -2.8574 ]
+  nhpr [ 150 -0 0 ]
+  scale [ 7.10509 7.10509 7.10508 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 268.89 -71.2282 -2.8574 ]
+  nhpr [ -105 0 0 ]
+  scale [ 6.14212 6.14212 6.14213 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 228.412 -63.5895 2.1426 ]
+  nhpr [ -15 0 0 ]
+  scale [ 5.62788 5.62788 5.62788 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 156.09 10.0702 -0.199993 ]
+  nhpr [ 15 0 0 ]
+  scale [ 5.28638 5.28638 5.28638 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 250.375 90.4486 2.1426 ]
+  nhpr [ 120 -0 0 ]
+  scale [ 5.54024 5.54024 5.54024 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 311.23 51.1103 0.80004 ]
+  nhpr [ -15 0 0 ]
+  scale [ 6.29136 6.29136 6.29136 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 83.8048 66.6736 -4.19996 ]
+  nhpr [ -60 0 0 ]
+  scale [ 8.91802 8.91802 8.91802 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 101.471 -49.2684 -2.19996 ]
+  nhpr [ -15 0 0 ]
+  scale [ 6.26357 6.26357 6.26357 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 83.9787 -6.56579 0.80004 ]
+  nhpr [ 135 -0 0 ]
+  scale [ 8.20722 8.20722 8.20722 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 195.169 133.16 0.800004 ]
+  nhpr [ -150 0 0 ]
+  scale [ 7.38714 7.38714 7.38714 ]
+ ]
+ prop "dreamy tree 2_DNARoot" [
+  code [ "dreamy tree 2" ]
+  pos [ 132.844 133.372 0.800014 ]
+  nhpr [ 60 0 0 ]
+  scale [ 10.0988 10.0988 10.0988 ]
+ ]
+]

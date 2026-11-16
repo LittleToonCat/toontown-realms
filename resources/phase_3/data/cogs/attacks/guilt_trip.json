@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:guilt_trip",
+    "display_name": "#CogAttackGuiltTrip",
+    "animation": "magic1",
+    "target_type": "group",
+    "attack_quote_sets": [
+        "ttrealms:guilt_trip"
+    ]
+}

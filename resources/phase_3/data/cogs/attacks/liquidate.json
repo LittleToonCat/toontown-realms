@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:liquidate",
+    "display_name": "#CogAttackLiquidate",
+    "animation": "magic1",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:liquidate"
+    ]
+}

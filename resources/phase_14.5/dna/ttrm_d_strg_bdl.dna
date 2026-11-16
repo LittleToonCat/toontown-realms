@@ -1,0 +1,7 @@
+// For the Toontown Fields
+hood_model "phase_14.5/models/modules/tt_ext_plains" [
+    store_node [ "prop" "prop_plains_ttc" "" ]
+]
+model "phase_3.5/models/modules/toon_interior" [
+        store_node [ "prop" "TI_room" "" ]
+        ]

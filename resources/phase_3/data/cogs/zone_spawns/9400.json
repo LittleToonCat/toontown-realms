@@ -1,0 +1,80 @@
+{
+	"minCogs": 1,
+	"maxCogs": 5,
+	"minBuildings": 0,
+	"maxBuildings": 149,
+	"buildingWeight": 100,
+	"mixedBuildingChance": 0,
+	"maxCogsInBattle": 4,
+	"battleJoinChance": [
+		1,
+		5,
+		10,
+		40,
+		60,
+		80
+	],
+	"tracks": [
+		5,
+		5,
+		85,
+		5
+	],
+	"specials": [
+		100,
+		0,
+		0,
+		0,
+		0
+	],
+	"levels": [
+		6,
+		7,
+		8,
+		9
+	],
+	"respectInvasions": true,
+	"spawn_intervals": {
+		"top_brasses": {
+			"spawn_delay_min": 300,
+			"spawn_delay_max": 420,
+			"unique_cog_limit": 1,
+			"total_cog_limit": 2,
+			"spawn_chance": 100,
+			"cog_spawns": {
+				"head_honcho": {
+					"levels": [
+					    17,
+					    18,
+					    19,
+					    20
+					]
+				},
+				"cold_heart": {
+					"levels": [
+					    17,
+					    18,
+					    19,
+					    20
+					]
+				},
+				"the_racketeer": {
+					"levels": [
+					    17,
+					    18,
+					    19,
+					    20
+					]
+				},
+				"hot_shot": {
+					"levels": [
+					    17,
+						18,
+						19,
+						20
+					]
+				}
+			}
+		}
+	}
+}

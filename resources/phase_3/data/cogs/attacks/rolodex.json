@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:rolodex",
+    "display_name": "#CogAttackRolodex",
+    "animation": "roll-o-dex",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:rolodex"
+    ]
+}

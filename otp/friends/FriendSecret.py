@@ -1,0 +1,375 @@
+from panda3d.core import *
+from panda3d.toontown import *
+from direct.gui.DirectGui import *
+from direct.directnotify import DirectNotifyGlobal
+from direct.fsm import StateData
+import string
+import subprocess
+import sys
+from otp.otpbase import OTPLocalizer
+from otp.otpbase import OTPGlobals
+from otp.uberdog import RejectCode
+globalFriendSecret = None
+AccountSecret = 0
+AvatarSecret = 1
+BothSecrets = 2
+
+def showFriendSecret(secretType = AvatarSecret):
+    global globalFriendSecret
+    openFriendSecret(secretType)
+
+
+def openFriendSecret(secretType):
+    global globalFriendSecret
+    if globalFriendSecret != None:
+        globalFriendSecret.unload()
+    globalFriendSecret = FriendSecret(secretType)
+    globalFriendSecret.enter()
+
+
+def hideFriendSecret():
+    if globalFriendSecret != None:
+        globalFriendSecret.exit()
+
+
+def unloadFriendSecret():
+    global globalFriendSecret
+    if globalFriendSecret != None:
+        globalFriendSecret.unload()
+        globalFriendSecret = None
+
+
+class FriendSecret(DirectFrame, StateData.StateData):
+    notify = DirectNotifyGlobal.directNotify.newCategory('FriendSecret')
+
+    def __init__(self, secretType):
+        DirectFrame.__init__(self, parent=aspect2dp, pos=(0, 0, 0.1), relief=None, image=DGG.getDefaultDialogGeom(),
+                             image_scale=(1.6, 1, 1.4), image_pos=(0, 0, -0.05),
+                             image_color=OTPGlobals.GlobalDialogColor, borderWidth=(0.01, 0.01))
+        StateData.StateData.__init__(self, 'friend-secret-done')
+        self.initialiseoptions(FriendSecret)
+        self.prefix = OTPGlobals.getDefaultProductPrefix()
+        self.secretType = secretType
+        self.notify.debug('### secretType = %s' % self.secretType)
+        self.requestedSecretType = secretType
+        self.notify.debug('### requestedSecretType = %s' % self.requestedSecretType)
+
+    def unload(self):
+        if self.isLoaded == 0:
+            return None
+        self.isLoaded = 0
+        self.exit()
+        del self.introText
+        del self.getSecret
+        del self.enterSecretText
+        del self.enterSecret
+        del self.ok1
+        del self.ok2
+        del self.copyButton
+        del self.cancel
+        del self.secretText
+        del self.avatarButton
+        del self.accountButton
+        DirectFrame.destroy(self)
+        self.ignore('clientCleanup')
+
+    def load(self):
+        if self.isLoaded == 1:
+            return None
+        self.isLoaded = 1
+        self.introText = DirectLabel(parent=self, relief=None, pos=(0, 0, 0.4), scale=0.05,
+                                     text=OTPLocalizer.FriendSecretIntro, text_fg=(0, 0, 0, 1), text_wordwrap=30)
+        self.introText.hide()
+        guiButton = loader.loadModel('phase_3/models/gui/quit_button')
+        gui = loader.loadModel('phase_3.5/models/gui/chat_input_gui')
+        self.getSecret = DirectButton(parent=self, relief=None, pos=(0, 0, -0.11),
+                                      image=(guiButton.find('**/QuitBtn_UP'), guiButton.find('**/QuitBtn_DN'),
+                                             guiButton.find('**/QuitBtn_RLVR')),
+                                      image_scale=OTPLocalizer.FSgetSecret, text=OTPLocalizer.FriendSecretGetSecret,
+                                      text_scale=OTPLocalizer.FSgetSecretButton, text_pos=(0, -0.02),
+                                      command=self.__determineSecret)
+        self.getSecret.hide()
+        self.enterSecretText = DirectLabel(parent=self, relief=None, pos=OTPLocalizer.FSenterSecretTextPos,
+                                           scale=0.05, text=OTPLocalizer.FriendSecretEnterSecret, text_fg=(0, 0, 0, 1),
+                                           text_wordwrap=30)
+        self.enterSecretText.hide()
+        self.enterSecret = DirectEntry(parent=self, relief=DGG.SUNKEN, scale=0.06, pos=(-0.6, 0, -0.38),
+                                       frameColor=(0.8, 0.8, 0.5, 1), borderWidth=(0.1, 0.1), numLines=1, width=20,
+                                       frameSize=(-0.4, 20.4, -0.4, 1.1), command=self.__enterSecret)
+        self.enterSecret.resetFrameSize()
+        self.enterSecret.hide()
+        self.cancelButton = DirectButton(parent=self, image=(gui.find('**/CloseBtn_UP'),
+                                                             gui.find('**/CloseBtn_DN'),
+                                                             gui.find('**/CloseBtn_Rllvr')),
+                                         pos=(0.65, 0, -0.625), scale=(1.1, 1.1, 1.3), relief=None,
+                                         command=self.exit)
+        self.cancelButton.hide()
+        self.ok1 = DirectButton(parent=self, relief=None, image=(guiButton.find('**/QuitBtn_UP'),
+                                                                 guiButton.find('**/QuitBtn_DN'),
+                                                                 guiButton.find('**/QuitBtn_RLVR')),
+                                image_scale=OTPLocalizer.FSok1, text=OTPLocalizer.FriendSecretEnter, text_scale=0.06,
+                                text_pos=(0, -0.02), pos=(0, 0, -0.5), command=self.__ok1)
+        self.ok1.hide()
+        if base.cr.productName in ['JP',
+         'DE',
+         'BR',
+         'FR']:
+
+            class ShowHide:
+
+                def show(self):
+                    pass
+
+                def hide(self):
+                    pass
+
+            self.changeOptions = ShowHide()
+        self.ok2 = DirectButton(parent=self, relief=None, image=(guiButton.find('**/QuitBtn_UP'), guiButton.find('**/QuitBtn_DN'), guiButton.find('**/QuitBtn_RLVR')), image_scale=OTPLocalizer.FSok2, text=OTPLocalizer.FriendSecretOK, text_scale=0.06, text_pos=(0, -0.02), pos=(-0.2, 0, -0.57), command=self.__ok2)
+        self.ok2.hide()
+        self.copyButton = DirectButton(parent=self, relief=None, image=(guiButton.find('**/QuitBtn_UP'),
+                                                                        guiButton.find('**/QuitBtn_DN'),
+                                                                        guiButton.find('**/QuitBtn_RLVR')),
+                                       image_scale=OTPLocalizer.FSok2, text=OTPLocalizer.FriendSecretCopy,
+                                       text_scale=0.06, text_pos=(0, -0.02), pos=(0.2, 0, -0.57), command=self.__copyButton)
+        self.copyButton.hide()
+        self.ok2.hide()
+        self.cancel = DirectButton(parent=self, relief=None, text=OTPLocalizer.FriendSecretCancel, image=(guiButton.find('**/QuitBtn_UP'), guiButton.find('**/QuitBtn_DN'), guiButton.find('**/QuitBtn_RLVR')), image_scale=OTPLocalizer.FScancel, text_scale=0.06, text_pos=(0, -0.02), pos=(0, 0, -0.57), command=self.__cancel)
+        self.cancel.hide()
+        self.nextText = DirectLabel(parent=self, relief=None, pos=(0, 0, 0.3), scale=0.06, text='', text_scale=OTPLocalizer.FSnextText, text_fg=(0, 0, 0, 1), text_wordwrap=25.5)
+        self.nextText.hide()
+        self.secretText = DirectLabel(parent=self, relief=None, pos=(0, 0, -0.42), scale=0.1, text='', text_fg=(0, 0, 0, 1), text_wordwrap=30)
+        self.secretText.hide()
+        guiButton.removeNode()
+        gui.removeNode()
+        self.makeFriendTypeButtons()
+        self.accept('clientCleanup', self.__handleCleanup)
+        self.accept('walkDone', self.__handleStop)
+
+    def __handleStop(self, message):
+        self.exit()
+
+    def __handleCleanup(self):
+        self.unload()
+
+    def makeFriendTypeButtons(self):
+        buttons = loader.loadModel('phase_3/models/gui/dialog_box_buttons_gui')
+        self.avatarButton = DirectButton(self, image=(buttons.find('**/ChtBx_OKBtn_UP'), buttons.find('**/ChtBx_OKBtn_DN'), buttons.find('**/ChtBx_OKBtn_Rllvr')), relief=None, text=OTPLocalizer.FriendSecretDetermineSecretAvatar, text_scale=0.07, text_pos=(0.0, -0.1), pos=(-0.35, 0.0, -0.05), command=self.__handleAvatar)
+        avatarText = DirectLabel(parent=self, relief=None, pos=Vec3(0.35, 0, -0.3), text=OTPLocalizer.FriendSecretDetermineSecretAvatarRollover, text_fg=(0, 0, 0, 1), text_pos=(0, 0), text_scale=0.055, text_align=TextNode.ACenter)
+        avatarText.reparentTo(self.avatarButton.stateNodePath[2])
+        self.avatarButton.hide()
+        self.accountButton = DirectButton(self, image=(buttons.find('**/ChtBx_OKBtn_UP'), buttons.find('**/ChtBx_OKBtn_DN'), buttons.find('**/ChtBx_OKBtn_Rllvr')), relief=None, text=OTPLocalizer.FriendSecretDetermineSecretAccount, text_scale=0.07, text_pos=(0.0, -0.1), pos=(0.35, 0.0, -0.05), command=self.__handleAccount)
+        accountText = DirectLabel(parent=self, relief=None, pos=Vec3(-0.35, 0, -0.3), text=OTPLocalizer.FriendSecretDetermineSecretAccountRollover, text_fg=(0, 0, 0, 1), text_pos=(0, 0), text_scale=0.055, text_align=TextNode.ACenter)
+        accountText.reparentTo(self.accountButton.stateNodePath[2])
+        self.accountButton.hide()
+        buttons.removeNode()
+
+    def enter(self):
+        if self.isEntered == 1:
+            return
+        self.isEntered = 1
+        if self.isLoaded == 0:
+            self.load()
+        self.show()
+        self.introText.show()
+        self.getSecret.show()
+        self.enterSecretText.show()
+        self.enterSecret.show()
+        self.cancelButton.show()
+        self.ok1.show()
+        self.ok2.hide()
+        self.copyButton.hide()
+        self.cancel.hide()
+        self.nextText.hide()
+        self.secretText.hide()
+        localAvatar.chatMgr.setBackgroundFocus(False, True)
+        self.enterSecret['focus'] = 1
+        NametagGlobals.setOnscreenChatForced(1)
+
+    def exit(self):
+        if self.isEntered == 0:
+            return
+        self.isEntered = 0
+        NametagGlobals.setOnscreenChatForced(0)
+        self.__cleanupFirstPage()
+        self.ignoreAll()
+        self.accept('clientCleanup', self.unload)
+        self.hide()
+
+    def __determineSecret(self):
+        if self.secretType == BothSecrets:
+            self.__cleanupFirstPage()
+            self.ok1.hide()
+            self.nextText['text'] = OTPLocalizer.FriendSecretDetermineSecret
+            self.nextText.setPos(0, 0, 0.3)
+            self.nextText.show()
+            self.avatarButton.show()
+            self.accountButton.show()
+            self.cancel.show()
+        else:
+            self.__getSecret()
+
+    def __handleAvatar(self):
+        self.requestedSecretType = AvatarSecret
+        self.__getSecret()
+
+    def __handleAccount(self):
+        self.requestedSecretType = AccountSecret
+        self.__getSecret()
+
+    def __handleCancel(self):
+        self.exit()
+
+    def __getSecret(self):
+        self.__cleanupFirstPage()
+        self.nextText['text'] = OTPLocalizer.FriendSecretGettingSecret
+        self.nextText.setPos(0, 0, 0.3)
+        self.nextText.show()
+        self.avatarButton.hide()
+        self.accountButton.hide()
+        self.ok1.hide()
+        self.cancel.show()
+        if self.requestedSecretType == AvatarSecret:
+            if not base.cr.friendManager:
+                self.notify.warning('No FriendManager available.')
+                self.exit()
+                return
+            base.cr.friendManager.up_requestSecret()
+            self.accept('requestSecretResponse', self.__gotAvatarSecret)
+        else:
+            base.cr.playerFriendsManager.sendRequestUnlimitedSecret()
+            self.notify.info('### requestUnlimitedSecret')
+            self.accept(OTPGlobals.PlayerFriendNewSecretEvent, self.__gotAccountSecret)
+            self.accept(OTPGlobals.PlayerFriendRejectNewSecretEvent, self.__rejectAccountSecret)
+
+    def __gotAvatarSecret(self, result, secret):
+        self.ignore('requestSecretResponse')
+        if result == 1:
+            self.nextText['text'] = OTPLocalizer.FriendSecretGotSecret
+            self.nextText.setPos(*OTPLocalizer.FSgotSecretPos)
+            if self.prefix:
+                self.secretText['text'] = self.prefix + ' ' + secret
+            else:
+                self.secretText['text'] = secret
+        else:
+            self.nextText['text'] = OTPLocalizer.FriendSecretTooMany
+        self.nextText.show()
+        self.secretText.show()
+        self.cancel.hide()
+        self.ok1.hide()
+        self.ok2.show()
+        self.copyButton.show()
+
+    def __gotAccountSecret(self, secret):
+        self.ignore(OTPGlobals.PlayerFriendNewSecretEvent)
+        self.ignore(OTPGlobals.PlayerFriendRejectNewSecretEvent)
+        self.nextText['text'] = OTPLocalizer.FriendSecretGotSecret
+        self.nextText.setPos(0, 0, 0.47)
+        self.secretText['text'] = secret
+        self.nextText.show()
+        self.secretText.show()
+        self.cancel.hide()
+        self.ok1.hide()
+        self.ok2.show()
+
+    def __rejectAccountSecret(self, reason):
+        print('## rejectAccountSecret: reason = ', reason)
+        self.ignore(OTPGlobals.PlayerFriendNewSecretEvent)
+        self.ignore(OTPGlobals.PlayerFriendRejectNewSecretEvent)
+        self.nextText['text'] = OTPLocalizer.FriendSecretTooMany
+        self.nextText.show()
+        self.secretText.show()
+        self.cancel.hide()
+        self.ok1.hide()
+        self.ok2.show()
+
+    def __enterSecret(self, secret):
+        self.enterSecret.set('')
+        secret = secret.strip()
+        if not secret:
+            self.exit()
+            return
+        if not base.cr.friendManager:
+            self.notify.warning('No FriendManager available.')
+            self.exit()
+            return
+        self.__cleanupFirstPage()
+        if self.prefix:
+            if secret[0:2] == self.prefix:
+                secret = secret[3:]
+                self.notify.info('### use TT secret')
+                self.accept('submitSecretResponse', self.__enteredSecret)
+                base.cr.friendManager.up_submitSecret(secret)
+            else:
+                self.accept(OTPGlobals.PlayerFriendUpdateEvent, self.__useAccountSecret)
+                self.accept(OTPGlobals.PlayerFriendRejectUseSecretEvent, self.__rejectUseAccountSecret)
+                self.notify.info('### useUnlimitedSecret')
+                base.cr.playerFriendsManager.sendRequestUseUnlimitedSecret(secret)
+        self.nextText['text'] = OTPLocalizer.FriendSecretTryingSecret
+        self.nextText.setPos(0, 0, 0.3)
+        self.nextText.show()
+        self.ok1.hide()
+        self.cancel.show()
+
+    def __enteredSecret(self, result, avId, avName):
+        self.ignore('submitSecretResponse')
+        if result == 1:
+            self.nextText['text'] = OTPLocalizer.FriendSecretEnteredSecretSuccess % avName
+        elif result == 0:
+            self.nextText['text'] = OTPLocalizer.FriendSecretEnteredSecretUnknown
+        elif result == 2:
+            self.nextText['text'] = OTPLocalizer.FriendSecretEnteredSecretFull % avName
+        elif result == 3:
+            self.nextText['text'] = OTPLocalizer.FriendSecretEnteredSecretSelf
+        elif result == 4:
+            self.nextText['text'] = OTPLocalizer.FriendSecretEnteredSecretWrongProduct % self.prefix
+        self.nextText.show()
+        self.cancel.hide()
+        self.ok1.hide()
+        self.ok2.show()
+
+    def __useAccountSecret(self, avId, friendInfo):
+        self.ignore(OTPGlobals.PlayerFriendUpdateEvent)
+        self.ignore(OTPGlobals.PlayerFriendRejectUseSecretEvent)
+        self.__enteredSecret(1, 0)
+
+    def __rejectUseAccountSecret(self, reason):
+        print('## rejectUseAccountSecret: reason = ', reason)
+        self.ignore(OTPGlobals.PlayerFriendUpdateEvent)
+        self.ignore(OTPGlobals.PlayerFriendRejectUseSecretEvent)
+        if reason == RejectCode.RejectCode.FRIENDS_LIST_FULL:
+            self.__enteredSecret(2, 0)
+        elif reason == RejectCode.RejectCode.ALREADY_FRIENDS_WITH_SELF:
+            self.__enteredSecret(3, 0)
+        else:
+            self.__enteredSecret(0, 0)
+
+    def __ok1(self):
+        secret = self.enterSecret.get()
+        self.__enterSecret(secret)
+
+    def __ok2(self):
+        self.exit()
+
+    def __copyButton(self):
+        if sys.platform == 'win32':
+            cmd = 'echo ' + self.secretText['text'].strip() + '|clip'
+        elif sys.platform == 'darwin':
+            cmd = 'cat ' + self.secretText['text'].strip() + '| pbcopy'
+        else:
+            cmd = 'cat ' + self.secretText['text'].strip() + '| xclip -selection clipboard'
+        try:
+            cmdExec = subprocess.check_call(cmd, shell=True)
+            return cmdExec
+        except subprocess.CalledProcessError:
+            localAvatar.setSystemMessage(0, OTPLocalizer.FriendSecretCopyFailure)
+
+    def __cancel(self):
+        self.exit()
+
+    def __cleanupFirstPage(self):
+        self.introText.hide()
+        self.getSecret.hide()
+        self.enterSecretText.hide()
+        self.enterSecret.hide()
+        self.cancelButton.hide()
+        localAvatar.chatMgr.setBackgroundFocus(base.controlManager.getChatDisabled(), True)

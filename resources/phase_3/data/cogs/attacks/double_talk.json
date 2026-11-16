@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:double_talk",
+    "display_name": "#CogAttackDoubleTalk",
+    "animation": "speak",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:double_talk"
+    ]
+}

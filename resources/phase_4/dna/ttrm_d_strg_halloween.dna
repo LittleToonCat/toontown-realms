@@ -1,0 +1,9 @@
+// Halloween Graphics
+model "phase_3.5/models/props/ttoff_m_ara_halloween_pg_icons"[
+	store_node [ "graphic" "mickeySZ" "ttoff_t_ara_icon_ttc" ]
+	store_node [ "graphic" "donaldSZ" "ttoff_t_ara_icon_dod" ]
+	store_node [ "graphic" "daisySZ" "ttoff_t_ara_icon_dga" ]
+	store_node [ "graphic" "minnieSZ" "ttoff_t_ara_icon_mml" ]
+	store_node [ "graphic" "plutoSZ" "ttoff_t_ara_icon_tbr" ]
+	store_node [ "graphic" "donald_DL_SZ" "ttoff_t_ara_icon_ddl" ]
+]

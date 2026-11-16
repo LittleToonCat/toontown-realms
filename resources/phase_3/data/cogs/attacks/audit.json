@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:audit",
+    "display_name": "#CogAttackAudit",
+    "animation": "phone",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:audit"
+    ]
+}

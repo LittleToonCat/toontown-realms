@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:sand_trap",
+    "display_name": "#CogAttackSandTrap",
+    "animation": "golf-club-swing",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:sand_trap"
+    ]
+}

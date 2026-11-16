@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:canned",
+    "display_name": "#CogAttackCanned",
+    "animation": "throw-paper",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:canned"
+    ]
+}

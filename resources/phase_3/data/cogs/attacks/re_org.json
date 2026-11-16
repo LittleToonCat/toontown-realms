@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:re_org",
+    "display_name": "#CogAttackReOrg",
+    "animation": "magic3",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:re_org"
+    ]
+}

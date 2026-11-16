@@ -1,0 +1,10 @@
+{
+    "identifier": "ttrealms:dormant_state",
+    "display_name": "#CogAttackDormantState",
+    "description": "#CogAttackDescDormantState",
+    "animation": "effort",
+    "target_type": "group",
+    "attack_quote_sets": [
+        "ttrealms:dormant_state"
+    ]
+}

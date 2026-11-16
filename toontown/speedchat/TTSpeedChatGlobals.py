@@ -1,0 +1,7 @@
+from .TTSCToontaskTerminal import TTSCToontaskMsgEvent
+from .TTSCCogTerminal import TTSCCogMsgEvent
+from .TTSCResistanceTerminal import TTSCResistanceMsgEvent
+from .TTSCMagicWordAddTerminal import TTSCMagicWordAddEvent
+from .TTSCMagicWordRemoveTerminal import TTSCMagicWordRemoveEvent
+from .TTSCMagicWordClearRecentTerminal import TTSCMagicWordClearRecentEvent
+from .TTSCMagicWordClearFavoritesTerminal import TTSCMagicWordClearFavoritesEvent

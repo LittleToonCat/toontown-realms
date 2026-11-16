@@ -1,0 +1,3 @@
+place_model "phase_6/models/neighborhoods/hidden_camp" [
+  	store_node [ "prop" "hidden_camp" "" ]
+ 	]

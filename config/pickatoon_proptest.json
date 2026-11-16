@@ -1,0 +1,4681 @@
+{
+  "sky": 1,
+  "dna_storages": [],
+  "props": [
+    {
+      "model_path": "phase_4/models/modules/toonhall",
+      "hide_nodes": [],
+      "pos": [
+        -35.0,
+        25.0,
+        0.0
+      ],
+      "hpr": [
+        67.5,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_4/models/modules/school_house",
+      "hide_nodes": [],
+      "pos": [
+        -5.0,
+        77.5,
+        0.0
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [
+        "*_hole_left",
+        "*_hole_right"
+      ],
+      "pos": [
+        7.64,
+        70.24,
+        0.74
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_40x40",
+      "hide_nodes": [],
+      "pos": [
+        -6.49,
+        32.13,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_40x40",
+      "hide_nodes": [],
+      "pos": [
+        -10.0,
+        10.0,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_40x40",
+      "hide_nodes": [],
+      "pos": [
+        30.0,
+        10.0,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_full_corner",
+      "hide_nodes": [],
+      "pos": [
+        110.0,
+        50.0,
+        0.5
+      ],
+      "hpr": [
+        270.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/char/ttoff_m_ene_head_duckTub",
+      "hide_nodes": [],
+      "pos": [
+        104.6,
+        16.72,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_20x40",
+      "hide_nodes": [],
+      "pos": [
+        110.0,
+        10.0,
+        0.5
+      ],
+      "hpr": [
+        270.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/garden_mickey_flute",
+      "hide_nodes": [],
+      "pos": [
+        102.07,
+        13.51,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_full_corner",
+      "hide_nodes": [],
+      "pos": [
+        150.0,
+        -10.0,
+        0.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_40x40",
+      "hide_nodes": [],
+      "pos": [
+        70.0,
+        -50.0,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_40x40",
+      "hide_nodes": [],
+      "pos": [
+        30.0,
+        -50.0,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/modules/TT_A3",
+      "hide_nodes": [],
+      "pos": [
+        56.04,
+        52.99,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/TT_A1",
+      "hide_nodes": [],
+      "pos": [
+        22.36,
+        51.84,
+        0.47
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_incline_40x40x5",
+      "hide_nodes": [],
+      "pos": [
+        -50.0,
+        -10.0,
+        5.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_incline_40x40x5",
+      "hide_nodes": [],
+      "pos": [
+        -90.0,
+        -10.0,
+        10.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/modules/TT_A2",
+      "hide_nodes": [],
+      "pos": [
+        92.52,
+        51.69,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/facade_e",
+      "hide_nodes": [],
+      "pos": [
+        75.2,
+        48.32,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/modules/TT_B1",
+      "hide_nodes": [],
+      "pos": [
+        149.91,
+        32.1,
+        0.5
+      ],
+      "hpr": [
+        270.6,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_incline_40x40x5",
+      "hide_nodes": [],
+      "pos": [
+        -130.0,
+        -10.0,
+        15.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_three_light",
+      "hide_nodes": [],
+      "pos": [
+        104.16,
+        -0.44,
+        -24.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_incline_40x40x5",
+      "hide_nodes": [],
+      "pos": [
+        -170.0,
+        -10.0,
+        20.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_incline_40x40x5",
+      "hide_nodes": [],
+      "pos": [
+        -210.0,
+        -10.0,
+        25.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        342.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        87.65,
+        1.61,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_bldgsigns",
+      "node_path": "TTC_sign3",
+      "hide_nodes": [],
+      "pos": [
+        67.26,
+        50.25,
+        11.04
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_bldgsigns",
+      "node_path": "tunnel_sign_orange",
+      "hide_nodes": [],
+      "pos": [
+        86.76,
+        1.53,
+        7.37
+      ],
+      "hpr": [
+        267.61,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.6,
+        1.6,
+        1.6
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_4/models/modules/doors",
+      "node_path": "door_single_round_ur",
+      "hide_nodes": [],
+      "pos": [
+        67.29,
+        50.25,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/sleigh",
+      "hide_nodes": [],
+      "pos": [
+        85.4,
+        30.17,
+        0.0
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_bldgsigns",
+      "node_path": "TTC_sign2",
+      "hide_nodes": [],
+      "pos": [
+        104.82,
+        48.39,
+        10.4
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/RADIO_A",
+      "hide_nodes": [],
+      "pos": [
+        72.26,
+        47.35,
+        2.52
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        20.0,
+        20.0,
+        20.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_bldgsigns",
+      "node_path": "TTC_sign3",
+      "hide_nodes": [],
+      "pos": [
+        -13.04,
+        40.89,
+        18.32
+      ],
+      "hpr": [
+        67.5,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        4.4,
+        4.4,
+        4.4
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [
+        "*_hole_left",
+        "*_hole_right"
+      ],
+      "pos": [
+        146.96,
+        22.07,
+        0.5
+      ],
+      "hpr": [
+        270.6,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [
+        "*_hole_left",
+        "*_hole_right"
+      ],
+      "pos": [
+        104.52,
+        48.64,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/walls",
+      "node_path": "wall_sm_wood_ur",
+      "hide_nodes": [],
+      "pos": [
+        164.84,
+        68.37,
+        14.37
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/walls",
+      "node_path": "wall_sm_wood_ur",
+      "hide_nodes": [],
+      "pos": [
+        88.74,
+        20.6,
+        14.4
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_stopsign",
+      "hide_nodes": [],
+      "pos": [
+        104.52,
+        48.64,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/UWskullBowl",
+      "hide_nodes": [],
+      "pos": [
+        73.92,
+        47.29,
+        2.45
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_6/models/golf/golf_construction_sign",
+      "hide_nodes": [],
+      "pos": [
+        104.51,
+        43.65,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.1,
+        2.1,
+        2.1
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/popcornCart",
+      "hide_nodes": [],
+      "pos": [
+        60.29,
+        44.5,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/hollywood",
+      "hide_nodes": [],
+      "pos": [
+        146.96,
+        22.07,
+        0.5
+      ],
+      "hpr": [
+        270.6,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        -0.62,
+        45.42,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        51.62,
+        46.28,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        49.86,
+        14.86,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        0.92,
+        14.12,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        91.15,
+        44.97,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        135.8,
+        46.68,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        114.84,
+        5.37,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        100.44,
+        -15.39,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        72.25,
+        -15.09,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        40.72,
+        -15.08,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        43.11,
+        -45.64,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        70.19,
+        -45.2,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        95.37,
+        -45.84,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/streetlight_TT",
+      "node_path": "prop_post_one_light",
+      "hide_nodes": [],
+      "pos": [
+        127.39,
+        -44.96,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/tt_m_ara_ddl_hypnoOwl",
+      "hide_nodes": [],
+      "pos": [
+        75.92,
+        47.28,
+        2.45
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_incline_40x40x5",
+      "hide_nodes": [],
+      "pos": [
+        -246.5,
+        -10.0,
+        41.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        315.0
+      ],
+      "scale": [
+        10.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_stonesuit_a",
+      "hide_nodes": [],
+      "pos": [
+        71.5,
+        46.54,
+        2.56
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/paper_trashcan",
+      "hide_nodes": [],
+      "pos": [
+        78.24,
+        47.25,
+        2.52
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/cog-gun",
+      "hide_nodes": [],
+      "pos": [
+        73.63,
+        48.32,
+        4.57
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/dank-gun",
+      "hide_nodes": [],
+      "pos": [
+        77.88,
+        48.32,
+        5.12
+      ],
+      "hpr": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_incline_40x40x5",
+      "hide_nodes": [],
+      "pos": [
+        -526.0,
+        -10.0,
+        328.0
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        315.0
+      ],
+      "scale": [
+        10.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_incline_40x40x5",
+      "hide_nodes": [],
+      "pos": [
+        -805.0,
+        -10.0,
+        614.0
+      ],
+      "hpr": [
+        180.49,
+        0.0,
+        315.0
+      ],
+      "scale": [
+        10.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_4/models/modules/suit_landmark_corp",
+      "hide_nodes": [],
+      "pos": [
+        65.62,
+        -51.19,
+        -0.03
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_4/models/modules/elevator",
+      "hide_nodes": [],
+      "pos": [
+        50.62,
+        -48.05,
+        -0.03
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_40x40",
+      "hide_nodes": [],
+      "pos": [
+        -10.0,
+        -49.95,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/walls",
+      "node_path": "wall_md_dental_ur",
+      "hide_nodes": [],
+      "pos": [
+        78.44,
+        51.54,
+        -0.02
+      ],
+      "hpr": [
+        179.86,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        22.0,
+        10.0,
+        14.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/walls",
+      "node_path": "wall_md_dental_ur",
+      "hide_nodes": [],
+      "pos": [
+        56.48,
+        51.2,
+        -0.03
+      ],
+      "hpr": [
+        88.61,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        25.0,
+        10.0,
+        14.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_incline_40x40x5",
+      "hide_nodes": [],
+      "pos": [
+        -10.0,
+        -10.0,
+        0.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_6/models/golf/golf_gazebo",
+      "hide_nodes": [],
+      "pos": [
+        -1083.0,
+        -32.5,
+        900.5
+      ],
+      "hpr": [
+        97.17,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.15,
+        1.15,
+        1.15
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/walls",
+      "node_path": "wall_md_dental_ur",
+      "hide_nodes": [],
+      "pos": [
+        79.02,
+        65.96,
+        -0.03
+      ],
+      "hpr": [
+        267.45,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/walls",
+      "node_path": "wall_md_dental_ur",
+      "hide_nodes": [],
+      "pos": [
+        63.36,
+        76.8,
+        -0.03
+      ],
+      "hpr": [
+        359.54,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/toon_interior",
+      "hide_nodes": [],
+      "pos": [
+        107.5,
+        -20.0,
+        -84.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [],
+      "pos": [
+        107.5,
+        -23.93,
+        -84.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/counter",
+      "hide_nodes": [],
+      "pos": [
+        112.88,
+        1.16,
+        -84.53
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [],
+      "pos": [
+        86.36,
+        -35.72,
+        0.0
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/chairA",
+      "hide_nodes": [],
+      "pos": [
+        98.59,
+        -2.4,
+        -84.53
+      ],
+      "hpr": [
+        67.5,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/chair",
+      "hide_nodes": [],
+      "pos": [
+        99.87,
+        -12.83,
+        -84.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/chair",
+      "hide_nodes": [],
+      "pos": [
+        100.17,
+        -16.37,
+        -84.21
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/coffeetableSq",
+      "hide_nodes": [],
+      "pos": [
+        99.95,
+        -14.65,
+        -84.53
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/tt_m_prp_int_fireplace_bugRoom",
+      "hide_nodes": [],
+      "pos": [
+        117.14,
+        -8.6,
+        -84.53
+      ],
+      "hpr": [
+        270.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/ending_table",
+      "hide_nodes": [],
+      "pos": [
+        109.21,
+        4.9,
+        -84.53
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.6,
+        1.6,
+        1.6
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/trolley-station",
+      "hide_nodes": [],
+      "pos": [
+        109.38,
+        4.83,
+        -81.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.14,
+        0.14,
+        0.14
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_4/models/char/suitA-heads",
+      "node_path": "bigwig",
+      "hide_nodes": [],
+      "pos": [
+        75.49,
+        14.12,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_4/models/char/suitA-heads",
+      "node_path": "yesman",
+      "hide_nodes": [],
+      "pos": [
+        78.0,
+        15.18,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/props/teeth-mod",
+      "hide_nodes": [],
+      "pos": [
+        80.81,
+        14.78,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_6/models/modules/trolley_station_DD",
+      "hide_nodes": [],
+      "pos": [
+        73.98,
+        -10.51,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_bldgsigns",
+      "node_path": "TTC_sign4",
+      "hide_nodes": [],
+      "pos": [
+        33.99,
+        48.8,
+        9.76
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.3,
+        2.3,
+        2.3
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/tt_m_ara_ddl_hypnoOwl",
+      "hide_nodes": [],
+      "pos": [
+        14.62,
+        13.62,
+        0.5
+      ],
+      "hpr": [
+        49.0,
+        3.0,
+        357.0
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/tt_m_ara_ddl_hypnoOwl",
+      "hide_nodes": [],
+      "pos": [
+        13.07,
+        45.55,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_8/models/props/trees_DG",
+      "node_path": "prop_tree_DG_ul",
+      "hide_nodes": [],
+      "pos": [
+        44.23,
+        15.54,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/houseA",
+      "hide_nodes": [],
+      "pos": [
+        32.39,
+        11.47,
+        0.5
+      ],
+      "hpr": [
+        89.22,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [],
+      "pos": [
+        -1083.96,
+        -25.58,
+        904.19
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [],
+      "pos": [
+        32.44,
+        17.19,
+        0.77
+      ],
+      "hpr": [
+        179.15,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_curved_corner",
+      "hide_nodes": [],
+      "pos": [
+        -58.19,
+        -16.76,
+        6.52
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/ending_table",
+      "hide_nodes": [],
+      "pos": [
+        104.77,
+        4.7,
+        -84.53
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.6,
+        1.6,
+        1.6
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_curved_corner",
+      "hide_nodes": [],
+      "pos": [
+        -88.56,
+        -13.95,
+        10.32
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [],
+      "pos": [
+        -204.26,
+        -14.27,
+        24.78
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_clothshop",
+      "hide_nodes": [],
+      "pos": [
+        139.81,
+        -45.55,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/trolley_bed",
+      "hide_nodes": [],
+      "pos": [
+        104.68,
+        5.9,
+        -80.92
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [],
+      "pos": [
+        -1083.22,
+        -33.08,
+        904.19
+      ],
+      "hpr": [
+        198.15,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/toon_interior_L",
+      "hide_nodes": [],
+      "pos": [
+        65.0,
+        -12.5,
+        -84.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/toon_interior_T",
+      "hide_nodes": [],
+      "pos": [
+        47.38,
+        -161.85,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/toon_interior_T",
+      "hide_nodes": [],
+      "pos": [
+        40.0,
+        -5.0,
+        -84.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/toon_interior_I",
+      "hide_nodes": [],
+      "pos": [
+        2.5,
+        -5.0,
+        -84.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_pillars_ur",
+      "hide_nodes": [],
+      "pos": [
+        2.5,
+        -21.96,
+        -84.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_pillars_ur",
+      "hide_nodes": [],
+      "pos": [
+        -23.26,
+        45.38,
+        0.55
+      ],
+      "hpr": [
+        67.5,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/tt_m_ara_int_scientistHorseFlat",
+      "hide_nodes": [],
+      "pos": [
+        29.3,
+        21.93,
+        0.0
+      ],
+      "hpr": [
+        140.91,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/tt_m_ara_int_scientistDuckFlat",
+      "hide_nodes": [],
+      "pos": [
+        36.43,
+        21.77,
+        0.0
+      ],
+      "hpr": [
+        202.91,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_6/models/golf/golf_construction_sign",
+      "hide_nodes": [],
+      "pos": [
+        37.32,
+        18.85,
+        0.52
+      ],
+      "hpr": [
+        210.78,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_8/models/char/tt_r_ara_dga_trashcan",
+      "hide_nodes": [],
+      "pos": [
+        27.52,
+        18.51,
+        0.52
+      ],
+      "hpr": [
+        146.34,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/street_modules",
+      "node_path": "street_40x40",
+      "hide_nodes": [],
+      "pos": [
+        70.0,
+        10.0,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/counter",
+      "hide_nodes": [],
+      "pos": [
+        15.0,
+        112.5,
+        -84.5
+      ],
+      "hpr": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_8/models/modules/DG_A1",
+      "hide_nodes": [],
+      "pos": [
+        125.44,
+        -52.85,
+        -0.03
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/modules/TT_B2",
+      "hide_nodes": [],
+      "pos": [
+        42.5,
+        -10.0,
+        -22.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [],
+      "pos": [
+        34.86,
+        48.79,
+        0.47
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_pillars_ur",
+      "hide_nodes": [],
+      "pos": [
+        50.63,
+        -13.12,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_bldgsigns",
+      "node_path": "TTC_sign1",
+      "hide_nodes": [],
+      "pos": [
+        21.77,
+        108.36,
+        -79.96
+      ],
+      "hpr": [
+        270.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.1,
+        2.1,
+        2.1
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/props/stairs",
+      "hide_nodes": [],
+      "pos": [
+        116.69,
+        -49.32,
+        0.5
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/trees",
+      "node_path": "prop_tree_small_nobox_ur",
+      "hide_nodes": [],
+      "pos": [
+        -43.65,
+        -78.98,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/trees",
+      "node_path": "prop_tree_small_nobox_ur",
+      "hide_nodes": [],
+      "pos": [
+        39.26,
+        -49.13,
+        40.4
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/trees",
+      "node_path": "prop_tree_small_nobox_ur",
+      "hide_nodes": [],
+      "pos": [
+        -77.76,
+        16.12,
+        10.32
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/trees",
+      "node_path": "prop_tree_small_nobox_ur",
+      "hide_nodes": [],
+      "pos": [
+        -136.34,
+        3.21,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/trees",
+      "node_path": "prop_tree_small_nobox_ur",
+      "hide_nodes": [],
+      "pos": [
+        -227.21,
+        4.22,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/trees",
+      "node_path": "prop_tree_small_nobox_ur",
+      "hide_nodes": [],
+      "pos": [
+        -149.44,
+        -47.09,
+        17.93
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/props/trees",
+      "node_path": "prop_tree_small_nobox_ur",
+      "hide_nodes": [],
+      "pos": [
+        -158.57,
+        -15.24,
+        19.07
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_bldgsigns",
+      "node_path": "TTC_sign4",
+      "hide_nodes": [],
+      "pos": [
+        50.63,
+        -13.62,
+        7.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.5,
+        1.0,
+        2.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_6/models/golf/windmill",
+      "hide_nodes": [],
+      "pos": [
+        -126.53,
+        -17.18,
+        15.07
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/tt_m_ara_est_house_tiki",
+      "hide_nodes": [],
+      "pos": [
+        -162.42,
+        -40.87,
+        19.55
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/houseA",
+      "hide_nodes": [],
+      "pos": [
+        -225.84,
+        -40.0,
+        32.83
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_4/models/char/suitA-heads",
+      "node_path": "bigwig",
+      "hide_nodes": [],
+      "pos": [
+        8.35,
+        -50.56,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_4/models/char/suitA-heads",
+      "node_path": "bigwig",
+      "hide_nodes": [],
+      "pos": [
+        10.22,
+        -51.13,
+        -0.03
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        1.52,
+        60.74,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        -3.94,
+        57.1,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        2.67,
+        56.46,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        -4.74,
+        60.74,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        -7.77,
+        51.72,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        3.45,
+        49.25,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_6/models/golf/golf_windmill_b",
+      "hide_nodes": [],
+      "pos": [
+        -172.21,
+        -16.63,
+        20.78
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        -0.35,
+        58.43,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        -1.07,
+        54.68,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        -1.62,
+        47.93,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        -5.67,
+        51.02,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/props/birthday-cake-mod",
+      "hide_nodes": [],
+      "pos": [
+        11.37,
+        98.03,
+        -72.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/couch_2person",
+      "hide_nodes": [],
+      "pos": [
+        16.73,
+        72.8,
+        -84.5
+      ],
+      "hpr": [
+        270.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/props/birthday-cake-mod",
+      "hide_nodes": [],
+      "pos": [
+        14.87,
+        110.63,
+        -82.53
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/props/birthday-cake-mod",
+      "hide_nodes": [],
+      "pos": [
+        15.09,
+        101.23,
+        -82.58
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/modules/TT_B1",
+      "hide_nodes": [],
+      "pos": [
+        -118.68,
+        -53.62,
+        13.83
+      ],
+      "hpr": [
+        78.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/tt_m_prp_int_fireplace_square",
+      "hide_nodes": [],
+      "pos": [
+        19.97,
+        58.09,
+        -84.5
+      ],
+      "hpr": [
+        270.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [],
+      "pos": [
+        111.44,
+        -49.8,
+        3.97
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        21.77,
+        110.76,
+        -84.77
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_4/models/minigames/apple",
+      "hide_nodes": [],
+      "pos": [
+        50.63,
+        -13.75,
+        7.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/chairA",
+      "hide_nodes": [],
+      "pos": [
+        18.25,
+        66.49,
+        -84.5
+      ],
+      "hpr": [
+        247.5,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        21.0,
+        110.11,
+        -91.38
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/ttoff_m_prp_int_hottub",
+      "hide_nodes": [],
+      "pos": [
+        20.95,
+        110.2,
+        -90.98
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/BugRoomDesk",
+      "hide_nodes": [],
+      "pos": [
+        17.12,
+        78.78,
+        -84.5
+      ],
+      "hpr": [
+        292.5,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/West_cowboyLamp",
+      "hide_nodes": [],
+      "pos": [
+        17.58,
+        79.18,
+        -81.59
+      ],
+      "hpr": [
+        315.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/rug",
+      "hide_nodes": [],
+      "pos": [
+        9.66,
+        71.92,
+        -84.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/bookcase",
+      "hide_nodes": [],
+      "pos": [
+        -14.06,
+        81.02,
+        -84.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_6/models/golf/golf_construction_sign",
+      "hide_nodes": [],
+      "pos": [
+        89.7,
+        -12.07,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/coffeetableSq",
+      "hide_nodes": [],
+      "pos": [
+        7.8,
+        72.61,
+        -84.47
+      ],
+      "hpr": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/walls",
+      "node_path": "wall_sm_brick_ur",
+      "hide_nodes": [],
+      "pos": [
+        58.75,
+        -10.62,
+        0.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        15.299999,
+        10.0,
+        10.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/bugRoomTV",
+      "hide_nodes": [],
+      "pos": [
+        7.12,
+        72.6,
+        -82.65
+      ],
+      "hpr": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7,
+        0.5,
+        0.7
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_texPlane",
+      "hide_nodes": [],
+      "pos": [
+        7.47,
+        72.63,
+        -81.31
+      ],
+      "hpr": [
+        90.0,
+        4.0,
+        0.0
+      ],
+      "scale": [
+        0.9,
+        0.5,
+        0.6
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/tt_m_ara_est_accessoryTrunkBoy",
+      "hide_nodes": [],
+      "pos": [
+        13.75,
+        83.25,
+        -84.5
+      ],
+      "hpr": [
+        270.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/paper_trashcan",
+      "hide_nodes": [],
+      "pos": [
+        17.5,
+        69.38,
+        -84.5
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/tt_m_prp_int_fireplace_bugRoom",
+      "hide_nodes": [],
+      "pos": [
+        -10.77,
+        -2.0,
+        -84.5
+      ],
+      "hpr": [
+        139.3,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_texPlane",
+      "hide_nodes": [],
+      "pos": [
+        -15.02,
+        71.5,
+        -78.86
+      ],
+      "hpr": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.4,
+        1.7,
+        3.1
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/prop_phone-mod",
+      "hide_nodes": [],
+      "pos": [
+        -10.0,
+        83.13,
+        -84.5
+      ],
+      "hpr": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/deskChair",
+      "hide_nodes": [],
+      "pos": [
+        -13.12,
+        78.13,
+        -84.5
+      ],
+      "hpr": [
+        157.5,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5/models/cogdominium/tt_m_ara_crg_paintingLegalEagle",
+      "hide_nodes": [],
+      "pos": [
+        -16.12,
+        71.44,
+        -79.0
+      ],
+      "hpr": [
+        90.59,
+        354.0,
+        0.0
+      ],
+      "scale": [
+        0.6,
+        0.8,
+        0.5
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_14.5/models/props/ttoff_m_propgen_texPlane",
+      "hide_nodes": [],
+      "pos": [
+        -14.52,
+        41.32,
+        -79.23
+      ],
+      "hpr": [
+        263.43,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_8/models/props/snow_pile_full",
+      "hide_nodes": [],
+      "pos": [
+        13.05,
+        -89.61,
+        -0.03
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/counterShort",
+      "hide_nodes": [],
+      "pos": [
+        98.36,
+        -73.1,
+        0.87
+      ],
+      "hpr": [
+        270.02,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/char/suitC-heads",
+      "node_path": "coldcaller",
+      "hide_nodes": [],
+      "pos": [
+        8.75,
+        -85.62,
+        17.0
+      ],
+      "hpr": [
+        353.0,
+        8.0,
+        357.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_curved_ur",
+      "hide_nodes": [],
+      "pos": [
+        7.05,
+        -71.92,
+        0.1
+      ],
+      "hpr": [
+        183.03,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_curved_ur",
+      "hide_nodes": [],
+      "pos": [
+        25.45,
+        -87.39,
+        85.04
+      ],
+      "hpr": [
+        182.48,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/toon_interior_T",
+      "hide_nodes": [],
+      "pos": [
+        113.61,
+        -70.53,
+        -84.05
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/doors_practical",
+      "node_path": "door_double_round_ur",
+      "hide_nodes": [],
+      "pos": [
+        108.61,
+        -85.48,
+        -84.05
+      ],
+      "hpr": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/counter",
+      "hide_nodes": [],
+      "pos": [
+        116.16,
+        -60.1,
+        -84.05
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/toon_interior",
+      "hide_nodes": [],
+      "pos": [
+        40.63,
+        25.0,
+        -75.0
+      ],
+      "hpr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_5.5/models/estate/tt_m_prp_int_fireplace_square",
+      "hide_nodes": [],
+      "pos": [
+        126.57,
+        -68.38,
+        -84.05
+      ],
+      "hpr": [
+        268.58,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "model_path": "phase_3.5/models/modules/chair",
+      "hide_nodes": [],
+      "pos": [
+        105.82,
+        -57.47,
+        -84.05
+      ],
+      "hpr": [
+        23.66,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ]
+    }
+  ],
+  "camera_pos": [
+    30.92,
+    26.55,
+    3.96,
+    -78.0,
+    -4.0,
+    0.0
+  ]
+}

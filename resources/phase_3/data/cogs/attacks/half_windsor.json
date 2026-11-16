@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:half_windsor",
+    "display_name": "#CogAttackHalfWindsor",
+    "animation": "throw-paper",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:half_windsor"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:demotion",
+    "display_name": "#CogAttackDemotion",
+    "animation": "magic1",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:demotion"
+    ]
+}

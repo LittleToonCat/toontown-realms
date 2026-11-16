@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:brainstorm",
+    "display_name": "#CogAttackBrainstorm",
+    "animation": "effort",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:brainstorm"
+    ]
+}

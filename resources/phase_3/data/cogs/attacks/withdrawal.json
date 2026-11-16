@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:withdrawal",
+    "display_name": "#CogAttackWithdrawal",
+    "animation": "magic1",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:withdrawal"
+    ]
+}

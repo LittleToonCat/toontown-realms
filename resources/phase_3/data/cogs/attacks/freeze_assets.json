@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:freeze_assets",
+    "display_name": "#CogAttackFreezeAssets",
+    "animation": "glower",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:freeze_assets"
+    ]
+}

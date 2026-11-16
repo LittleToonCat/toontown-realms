@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:bite",
+    "display_name": "#CogAttackBite",
+    "animation": "throw-paper",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:bite"
+    ]
+}

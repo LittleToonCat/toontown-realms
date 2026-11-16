@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:rub_out",
+    "display_name": "#CogAttackRubOut",
+    "animation": "hold-eraser",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:rub_out"
+    ]
+}

@@ -1,0 +1,96 @@
+*.pyc
+*.pyo
+__pycache__/
+venv/
+*.fzn
+*.dll
+pandac/
+*.dis
+*.log
+screenshots/
+movies/
+sign/
+icons/
+whitelist/
+news/
+Library/
+*.buildings
+*.trackRecords
+*.DS_Store
+#resources/
+backups/
+buildlots/
+settings.json
+bans.json
+mutes.json
+server.json
+spellbook.json
+sos.json
+updates.json
+holidays.json
+bot.json
+errorCode
+props/
+filters/
+cache/
+logs/moderation
+accounts.json
+tools/MSTest.py
+tools/moviemaker icon gen/export/*
+offline.py
+
+# PyCharm IDE
+.idea
+
+# Visual Studio
+.vs/
+
+# 2to3 Backup
+*.py.bak
+
+start_game *.bat
+start_game_*.bat
+start-game *.sh
+start-game-*.sh
+
+# Build directory
+build/
+docs/~$ontown Offline v1.1.docx
+config/npctoons.json
+config/cogattributes.json
+config/suithoodinfo.json
+config/suithoodinfo_nerfs.json
+config/fishdict.json
+config/web_commands.json
+config/online_players.json
+realms.json
+Start All Servers with Terminal.lnk
+win32/start_all_with_terminal.cmd
+BamTeXEditor.exe
+config/motd.xml
+config/motd.json
+settings - Copy.json
+config/pickatoon.json
+client.toml
+config/server.toml
+hotkeys.toml
+/leveleditor
+rtm.prc
+rtm.py
+/toontown/leveleditor
+toontown/toon/RobotToonManager.py
+toontown/toon/RobotToon.py
+_hotkeys.json
+config/_server.json
+_client.json
+config/cfg_server.json
+cfg_client.json
+cfg_hotkeys.json
+__build/
+config_data.py
+/nuitka_build
+coghq_imports.py
+dcdata.py
+/main.dist
+/offline.dist
+offline.exe

@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:flex",
+    "display_name": "#CogAttackFlex",
+    "animation": "glower",
+    "target_type": "group",
+    "attack_quote_sets": [
+        "ttrealms:flex"
+    ]
+}

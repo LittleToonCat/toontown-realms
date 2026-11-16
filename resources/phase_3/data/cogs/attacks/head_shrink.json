@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:head_shrink",
+    "display_name": "#CogAttackHeadShrink",
+    "animation": "magic1",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:head_shrink"
+    ]
+}

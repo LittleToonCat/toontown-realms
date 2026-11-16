@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:tremor",
+    "display_name": "#CogAttackTremor",
+    "animation": "stomp",
+    "target_type": "group",
+    "attack_quote_sets": [
+        "ttrealms:tremor"
+    ]
+}

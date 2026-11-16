@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:filibuster",
+    "display_name": "#CogAttackFilibuster",
+    "animation": "speak",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:filibuster"
+    ]
+}

@@ -1,0 +1,13 @@
+group "plainsArea" [
+ visgroup "30100" [
+  vis [   "30100"   ]
+  group "plains" [
+   prop "prop_plains_DNARoot" [
+    code [ "prop_plains" ]
+    pos [ 0 0 -0.15 ]
+    hpr [ 0 0 0 ]
+    scale [ 150 150 1 ]
+   ]
+  ]
+ ]
+]

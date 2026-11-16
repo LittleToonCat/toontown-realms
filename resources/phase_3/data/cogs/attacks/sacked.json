@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:sacked",
+    "display_name": "#CogAttackSacked",
+    "animation": "throw-paper",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:sacked"
+    ]
+}

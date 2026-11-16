@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:hot_air",
+    "display_name": "#CogAttackHotAir",
+    "animation": "speak",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:hot_air"
+    ]
+}

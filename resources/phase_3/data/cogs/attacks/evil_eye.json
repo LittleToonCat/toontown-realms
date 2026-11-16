@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:evil_eye",
+    "display_name": "#CogAttackEvilEye",
+    "animation": "glower",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:evil_eye"
+    ]
+}

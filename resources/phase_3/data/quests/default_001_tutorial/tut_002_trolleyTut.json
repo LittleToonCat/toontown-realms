@@ -1,0 +1,15 @@
+{
+	"tier": 0,
+	"type": "continue",
+	"headline": null,
+	"objectives":[
+		{
+			"type": "ride_trolley",
+			"where": "anywhere"
+		}
+	],
+	"giver_npc": null,
+	"return_npc": "hq_anywhere",
+	"reward": null,
+	"next_quest": "default_001_tutorial/tut_003_getEraser.json"
+}

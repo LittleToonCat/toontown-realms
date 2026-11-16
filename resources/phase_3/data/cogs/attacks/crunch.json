@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:crunch",
+    "display_name": "#CogAttackCrunch",
+    "animation": "throw-object",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:crunch"
+    ]
+}

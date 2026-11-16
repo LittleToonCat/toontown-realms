@@ -1,0 +1,6 @@
+{
+    "identifier": "ttrealms:frozen",
+    "display_name": "#StatusEffectFrozen",
+    "display_color": [0.7, 1.0, 1.0, 1.0],
+    "rounds": 2
+}

@@ -1,0 +1,17 @@
+hood_model "phase_4/models/modules/ttoff_m_ara_ttc_gagshop_halloween" [
+	store_node [ "toon_landmark" "toon_landmark_ttc_gagshop_halloween" "" ]
+	]
+	
+hood_model "phase_4/models/modules/ttoff_m_ara_ttc_gstunnel_halloween" [
+	store_node [ "prop" "prop_GS_tunnel_halloween" "" ]
+        ]
+
+hood_model "phase_4/models/modules/ttoff_m_ara_ext_ttc_halloweenToonHall" [
+	store_node [ "toon_landmark" "toon_landmark_TT_toonhall_H" "" ]
+        ]
+hood_model "phase_4/models/modules/ttoff_m_ara_ext_ttc_halloweenBank" [
+	store_node [ "toon_landmark" "toon_landmark_TT_Bank_H" "" ]
+        ]
+hood_model "phase_4/models/modules/ttoff_m_ara_ext_ttc_halloweenLibrary" [
+	store_node [ "toon_landmark" "toon_landmark_TT_library_H" "" ]
+        ]

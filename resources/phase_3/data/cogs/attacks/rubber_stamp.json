@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:rubber_stamp",
+    "display_name": "#CogAttackRubberStamp",
+    "animation": "rubber-stamp",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:rubber_stamp"
+    ]
+}

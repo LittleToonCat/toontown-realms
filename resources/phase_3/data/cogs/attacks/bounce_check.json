@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:bounce_check",
+    "display_name": "#CogAttackBounceCheck",
+    "animation": "throw-paper",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:bounce_check"
+    ]
+}

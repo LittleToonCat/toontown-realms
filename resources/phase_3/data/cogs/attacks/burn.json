@@ -1,0 +1,6 @@
+{
+    "identifier": "ttrealms:burn",
+    "display_name": "#CogAttackBurn",
+    "description": "#CogAttackDescBurn",
+    "target_type": "group"
+}

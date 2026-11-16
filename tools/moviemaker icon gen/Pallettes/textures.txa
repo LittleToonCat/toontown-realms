@@ -1,0 +1,26 @@
+# Toontown Realms Movie Maker UI
+
+# egg-palettize.exe -tn ttrm_t_%%g_palette_%%p_%%i -all -egg -redo -noabs -nodb -af textures.txa -dm output/%%g -d output/ .\*.egg
+# cd output/
+# for %%f in (*.egg) do egg2bam -o "%%~nf.bam" %%f
+# pause
+
+:palette 512 512
+:imagetype png
+:shadowtype rgb
+:powertwo 1
+:coverage 3.0
+
+:group phase_3_mv dir phase_3.5/maps/browsericons
+:group gui_mvmk_brwsrIcns on phase_3_mv
+
+* : generic mipmap cont
+
+# =============================
+
+ttrm_m_gui_mvmk_brwsrIcns.egg :gui_mvmk_brwsrIcns
+bsr_ico*.exr: 128 128 border_color_u border_color_v margin 4 linear
+
+
+# THE REST
+*.png: 64 64 force-rgba dual border_color_u border_color_v margin 4

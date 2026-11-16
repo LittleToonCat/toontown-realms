@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:mumbo_jumbo",
+    "display_name": "#CogAttackMumboJumbo",
+    "animation": "speak",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:mumbo_jumbo"
+    ]
+}

@@ -1,0 +1,20 @@
+from enum import Enum, IntEnum
+
+
+class CameraMode(IntEnum):
+    ORBITAL = 0
+    CLASSIC = 1
+    FIRSTPERSON = 2
+    MOUSESHOULDER = 3
+    EDITOR = 4
+
+
+ORBIT_MAX_PITCH = 20
+ORBIT_MIN_PITCH = -50
+ORBIT_MIN_ZOOM = -25
+ORBIT_MAX_ZOOM = -2
+
+EDITOR_MAX_PITCH = 0
+EDITOR_MIN_PITCH = -85
+EDITOR_MIN_ZOOM = -150
+EDITOR_MAX_ZOOM = -2

@@ -1,0 +1,104 @@
+##################################################
+# The Toontown Realms Magic Word Manager
+##################################################
+# Co-Authors: John Cote, William Lord, Frank, Nick, Little Cat, Ooowoo, Drew, Leo
+# Copyright: Copyright 2022, Toontown Realms
+# License: MIT
+# Version: 1.0.0
+##################################################
+
+OUTGOING_CHAT_MESSAGE_NAME = 'magicWord'
+CLICKED_NAMETAG_MESSAGE_NAME = 'clickedNametag'
+FOCUS_OUT_MESSAGE_NAME = 'focusOut'
+
+PREFIX_DEFAULT = '~'
+PREFIX_ALLOWED = ['~', '?', '/', '<', ':', ';']
+if config.GetBool('exec-chat', False):
+    PREFIX_ALLOWED.append('>')
+
+WIZARD_DEFAULT = 'Magic Minnie'
+
+MAGIC_WORD_RESPONSES = {
+    "Success": 'response will be provided by magic word',
+    "Teleporting": 'Yikes! Don\'t use Magic words while switching zones!',
+    "OtherTeleporting": 'Your target is currently switching zones!',
+    "BadWord": 'Uh-oh! This Magic Word doesn\'t exist!',
+    "CloseWord": 'This Magic Word doesn\'t exist! Did you mean {}?',
+    "NoEffect": "This word doesn't affect anybody!",
+    "BadTarget": 'Invalid target specified!',
+    "NoAccessToTarget": "You don't have a high enough Access Level to target them!",
+    "NoAccessSingleTarget": "You don't have enough Access to target {}!\nThem: {}.\nYou: {}.",
+    "NoTarget": 'Unable to find a target!',
+    "NoAccess": 'Your Toon does not have enough power to use this Magic Word!',
+    "NotEnoughArgs": 'This command takes at least {}!',
+    "TooManyArgs": 'This command takes at most {}!',
+    "BadArgs": 'These arguments are of the wrong type!',
+    "CannotTarget": 'You cannot target other players with this Magic Word!',
+    "Locked": 'You are temporarily locked down and cannot use Magic Words.',
+    "RestrictionOther": 'You may only target one other player with this Magic Word!',
+    'LegitServer': 'You are playing on a Legit Realm, so you can only use administrative commands!',
+    'Episode': 'You cannot use Magic Words in Episodes!',
+    'Tutorial': 'You cannot use Magic Words in the Toontorial!',
+    'Cooldown': 'This Magic Word is on cooldown! Please wait a while before using it again.',
+    'DifferentZone': 'You can only use this Magic Word if your target is in the same zone as you!'
+}
+MAGIC_WORD_NO_RESPONSE = "...I don't know how to respond!"
+HAS_EXTRA_MESSAGE_DATA = ["NotEnoughArgs", "TooManyArgs", "CloseWord"]
+
+MAGIC_WORD_DEFAULT_DESC = 'A simple Magic Word.'
+MAGIC_WORD_DEFAULT_ADV_DESC = 'This Magic Word does a lot of things, because reasons.'
+
+AFFECT_TYPES = ['singular', 'zone', 'server', 'rank']
+AFFECT_TYPES_NAMES = ['Everyone in this zone', 'The entire server', 'Everyone with an Access Level of']
+AFFECT_NONE = -1
+AFFECT_SELF = 0
+AFFECT_OTHER = 1
+AFFECT_BOTH = 2
+AFFECT_NORMAL = 0
+AFFECT_ZONE = 1
+AFFECT_SERVER = 2
+AFFECT_RANK = 3
+GROUP_AFFECTS = [AFFECT_ZONE, AFFECT_SERVER, AFFECT_RANK]
+
+EXEC_LOC_INVALID = -1
+EXEC_LOC_CLIENT = 0
+EXEC_LOC_SERVER = 1
+
+ARGUMENT_NAME = 0
+ARGUMENT_TYPE = 1
+ARGUMENT_REQUIRED = 2
+ARGUMENT_DEFAULT = 3
+
+COOLDOWN_BYPASS_DEFAULT = "MODERATOR"
+
+# The two things below are formatted as JSON data
+CUSTOM_SPELLBOOK_DEFAULT = '''{
+    "settings":
+    {
+        "cooldown-bypass": "MODERATOR"
+    },
+    "words":
+    [
+        {
+            "name": "SetPos",
+            "access": "USER",
+            "cooldown": 0,
+            "anyTarget": false
+        },
+        {
+            "name": "GetPos",
+            "access": "USER",
+            "cooldown": 0,
+            "anyTarget": false
+        },
+        {
+            "name": "SetFly",
+            "access": "USER",
+            "cooldown": 0,
+            "anyTarget": false
+        }
+    ]
+}
+'''
+
+BOT_COMMANDS_DEFAULT = '''{}'''

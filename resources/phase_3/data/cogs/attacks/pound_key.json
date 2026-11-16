@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:pound_key",
+    "display_name": "#CogAttackPoundKey",
+    "animation": "phone",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:pound_key"
+    ]
+}

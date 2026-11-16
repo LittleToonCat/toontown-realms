@@ -1,0 +1,15 @@
+{
+	"dna_storages": [
+        "phase_6/dna/ttrm_d_strg_mml.dna",
+        "phase_6/dna/ttrm_d_strg_mml_sz.dna",
+        "phase_6/dna/ttrm_d_strg_mml_town.dna"
+	],
+	
+	"dna_file": "phase_3/dna/ttoff_d_launch_backgroundMM.dna",
+	"camera_pos": [-9.15, 10, 2.42, 1, 0.5, 0],
+	"props": [
+		{
+			"model_path": "phase_4/models/props/tt_a_ara_ttc_sillyMeter_default.bam"
+		}
+	]
+}

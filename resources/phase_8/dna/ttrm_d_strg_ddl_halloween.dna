@@ -1,0 +1,18 @@
+hood_model "phase_3.5/models/props/tt_m_ara_ddl_tree_halloween" [
+	store_node [ "holiday_prop" "prop_tree_DL_brickbox_ul" "tree_ddl_halloweenL" ]
+	store_node [ "holiday_prop" "prop_tree_DL_brickbox_ur" "tree_ddl_halloweenR" ]
+        ]
+
+
+hood_model "phase_8/models/props/tt_m_ara_DL_streetlight_halloween" [
+    store_node [ "holiday_prop" "prop_DL_post_one_light" "prop_post_one_light" ]
+	store_node [ "holiday_prop" "prop_DL_post_three_light" "prop_post_three_light"]
+	]
+	
+hood_model "phase_8/models/modules/ttoff_m_ara_ddl_gagshop_halloween" [
+	store_node [ "toon_landmark" "toon_landmark_ddl_gagshop_halloween" "" ]
+	]
+	
+hood_model "phase_5.5/models/estate/ttoff_r_ara_pty_tubeCogHalloween" [
+	store_node [ "prop" "animated_prop_HalloweenBloodsuckerAnimatedProp" "" ]
+	]

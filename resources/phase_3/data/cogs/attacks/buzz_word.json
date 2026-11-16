@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:buzz_word",
+    "display_name": "#CogAttackBuzzWord",
+    "animation": "speak",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:buzz_word"
+    ]
+}

@@ -1,0 +1,16 @@
+<MOTD>
+	<Header color="#db00e8">Welcome to the server!</Header>
+	<Text>Encounter a bad player? Click on them, and press the REPORT button on their profile!</Text>
+
+	<!-- a nice little gap -->
+	<br/>
+	<br/>
+
+	<!-- the rules -->
+	<Header color="#e82517">Rules</Header>
+
+	<Text>1. No breaking rules</Text>
+	<br/>
+	<Text>Need help? Join our Discord server at</Text>
+	<Text color="#5676c2">discord.gg/totallyrealdiscordlink</Text>
+</MOTD>

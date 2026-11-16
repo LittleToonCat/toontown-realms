@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:power_tie",
+    "display_name": "#CogAttackPowerTie",
+    "animation": "throw-paper",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:power_tie"
+    ]
+}

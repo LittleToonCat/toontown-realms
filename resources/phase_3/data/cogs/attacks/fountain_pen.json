@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:fountain_pen",
+    "display_name": "#CogAttackFountainPen",
+    "animation": "pen-squirt",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:fountain_pen"
+    ]
+}

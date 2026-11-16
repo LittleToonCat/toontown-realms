@@ -1,0 +1,29 @@
+{
+    "head_models": [
+        {
+            "path": "phase_3.5/models/char/ttrm_m_ene_head_hotShot",
+            "rotation": [180, 0, 0],
+            "scale": [0.5, 0.5, 0.5],
+            "position": [0, 0, 0.5]
+        }
+    ],
+    "body_type": 0,
+    "scale": 1.15511551,
+    "height": 8.95,
+    "torso_texture": "phase_3.5/maps/s_blazer.png",
+    "leg_texture": "phase_3.5/maps/s_leg.png",
+    "arm_texture": "phase_3.5/maps/s_sleeve.png",
+    "name": "#SuitHotShot",
+    "name_singular": "#SuitHotShotS",
+    "name_plural": "#SuitHotShotP",
+    "hand_color": [0.5, 0.3, 0.2, 1.0],
+    "quote_sets": [
+        "mh",
+        "default_brushoffs",
+        "default_cog_building_boss_taunts",
+        "default_factory_boss_taunts",
+        "default_factory_boss_minion_taunts",
+        "default_explode",
+        "default_fire"
+    ]
+}

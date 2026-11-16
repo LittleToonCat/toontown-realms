@@ -1,0 +1,10 @@
+group "BUILD_LOT_THEME_TTC" [
+  group "plains" [
+   prop "prop_plains_DNARoot" [
+    code [ "prop_plains_ttc" ]
+    pos [ 0 0 -0.15 ]
+    hpr [ 0 0 0 ]
+    scale [ 150 150 1 ]
+   ]
+  ]
+]

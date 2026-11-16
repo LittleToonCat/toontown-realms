@@ -1,0 +1,6 @@
+{
+    "identifier": "ttrealms:hail",
+    "display_name": "#CogAttackHail",
+    "description": "#CogAttackDescHail",
+    "target_type": "group"
+}

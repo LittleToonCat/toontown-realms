@@ -1,0 +1,10 @@
+{
+    "identifier": "ttrealms:blizzard",
+    "display_name": "#CogAttackBlizzard",
+    "description": "#CogAttackDescBlizzard",
+    "animation": "magic3",
+    "target_type": "group",
+    "attack_quote_sets": [
+        "ttrealms:blizzard"
+    ]
+}

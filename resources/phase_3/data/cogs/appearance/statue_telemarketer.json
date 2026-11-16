@@ -1,0 +1,33 @@
+{
+    "head_models": [
+        {
+            "path": "phase_4/models/char/suitB-heads",
+            "node": "telemarketer",
+			"texture": "phase_4/maps/ttrm_t_ene_head_statueTelemarketer.png",
+			"position": [0, -0.1, -0.1],
+			"scale": [1.2, 1.2, 1.2]
+        }
+    ],
+    "body_type": 0,
+    "scale": 1.15511551,
+    "height": 9.84,
+    "torso_texture": "phase_3.5/maps/ttrm_t_ene_blazer_statue.png",
+    "leg_texture": "phase_3.5/maps/ttrm_t_ene_leg_statue.png",
+    "arm_texture": "phase_3.5/maps/ttrm_t_ene_sleeve_statue.png",
+	"wrist_texture": "phase_3.5/maps/ttrm_t_ene_sleeve_statue.png",
+	"shoe_texture": "phase_3.5/maps/ttrm_t_ene_arm_statue.png",
+    "name": "#SuitStatueTelemarketer",
+    "name_singular": "#SuitStatueTelemarketerS",
+    "name_plural": "#SuitStatueTelemarketerP",
+	"hand_texture": "phase_3.5/maps/ttrm_t_ene_hand_statue.png",
+    "hand_color": [1.0, 1.0, 1.0, 1.0],
+    "quote_sets": [
+        "tm",
+        "default_brushoffs",
+        "default_cog_building_boss_taunts",
+        "default_factory_boss_taunts",
+        "default_factory_boss_minion_taunts",
+        "default_explode",
+        "default_fire"
+    ]
+}

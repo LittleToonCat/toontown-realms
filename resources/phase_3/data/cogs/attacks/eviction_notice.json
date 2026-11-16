@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:eviction_notice",
+    "display_name": "#CogAttackEvictionNotice",
+    "animation": "throw-paper",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:eviction_notice"
+    ]
+}

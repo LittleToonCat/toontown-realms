@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:flood_the_market",
+    "display_name": "#CogAttackFloodTheMarket",
+    "animation": "glower",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:flood_the_market"
+    ]
+}

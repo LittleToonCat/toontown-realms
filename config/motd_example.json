@@ -1,0 +1,42 @@
+[
+  {"type": "Header", "color": "#e86600", "content": "Welcome to the"},
+  {"type": "Header", "color": "#9c00e8", "content": ["Toontown Realms", "Official Realm"]},
+
+  {"type": "Break"},
+  {"type": "Break"},
+
+  {"type": "Header", "color": "#9c00e8", "content": "Rules"},
+  {
+    "type": "Text",
+    "content": [
+      "1. The usage of profanity is prohibited.",
+      "2. Griefing other users' builds is prohibited. (Tip: Create a Build Field to customize buliding permissions)",
+      "3. The use of any form of slurs is strictly prohibited, and may result in immediate removal from our Realm.",
+      "4. Any form of trolling, harassment, or bullying towards other users is strictly prohibited. This includes, but is not limited to: unsolicited whispers, impersonation of someone else, mocking someone based on identity or personal beliefs, etc.",
+      "5. Spam, copypasta, and large blocks of text in succession are prohibited.",
+      "6. Any form of sexually suggestive content, gore, or talk relating to harmful drugs, alcohol, smoking, or other dangerous habits is strictly prohibited, and will result in immediate action as necessary. This includes prop builds.",
+      "7. Advertisement is not allowed unless what you are talking about relates to the ongoing discussion.",
+      "8. Evading a punishment is strictly prohibited.",
+      "9. Sharing personal information of yourself or others is prohibited, and this includes IP addresses."
+    ]
+  },
+
+  {"type": "Break"},
+
+  {
+    "type": "Text",
+    "content": "Need help? Join our Discord server at"
+  },
+
+  {
+    "type": "Text",
+    "color": "#5676c2",
+    "content": "toontownrealms.com/discord"
+  },
+
+  {"type": "Break"},
+
+  {"type": "Text", "content": "Enjoy your time on the Toontown Realms Official Realm!"},
+
+  {"type": "Break"}
+]

@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:cigar_smoke",
+    "display_name": "#CogAttackCigarSmoke",
+    "animation": "cigar-smoke",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:cigar_smoke"
+    ]
+}

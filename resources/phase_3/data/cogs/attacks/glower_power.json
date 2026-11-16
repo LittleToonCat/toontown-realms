@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:glower_power",
+    "display_name": "#CogAttackGlowerPower",
+    "animation": "glower",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:glower_power"
+    ]
+}

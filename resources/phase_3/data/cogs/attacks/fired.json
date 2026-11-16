@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:fired",
+    "display_name": "#CogAttackFired",
+    "animation": "magic2",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:fired"
+    ]
+}

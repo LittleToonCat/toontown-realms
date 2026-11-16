@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:throw_book",
+    "display_name": "#CogAttackThrowBook",
+    "animation": "throw-object",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:throw_book"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+	"tier": 0,
+	"type": "start",
+	"headline": null,
+	"objectives": [
+		{
+			"type": "defeat_cog",
+			"where": "anywhere",
+			"defeat_cog_amount": 1,
+			"cog_types": ["f"]
+		}
+	],
+	"giver_npc": null,
+	"return_npc": "hq_anywhere",
+	"reward": null,
+	"dialog": {
+		"greeting": "#QuestsDefaultGreeting",
+		"parting": "#QuestsDefaultLeaving",
+		"quest": null,
+		"incomplete": "#QuestsDefaultIncomplete",
+		"incomplete_progress": "#QuestsDefaultIncompleteProgress",
+		"incomplete_wrong_npc": "#QuestsDefaultIncompleteWrongNPC",
+		"complete": "#QuestsDefaultComplete"
+	},
+	"next_quest": "default_001_tutorial/tut_002_trolleyTut.json"
+}

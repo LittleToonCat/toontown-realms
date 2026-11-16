@@ -1,0 +1,9 @@
+{
+    "identifier": "ttrealms:spin",
+    "display_name": "#CogAttackSpin",
+    "animation": "magic3",
+    "target_type": "single",
+    "attack_quote_sets": [
+        "ttrealms:spin"
+    ]
+}

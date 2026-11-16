@@ -1,0 +1,227 @@
+// the highest phase in this file should be phase 4
+
+hood_model "phase_3.5/models/modules/TT_A1" [
+	store_node [ "toon_landmark" "toon_landmark_TT_A1" "TT_A1"  ]
+	]
+
+hood_model "phase_3.5/models/modules/hqTT" [
+	store_node [ "toon_landmark" "toon_landmark_hqTT" "" ]
+	]
+
+hood_model "phase_3.5/models/props/HQ_periscope-mod" [
+	store_node [ "prop" "animated_prop_HQPeriscopeAnimatedProp" "periscope" ]
+	]
+hood_model "phase_3.5/models/props/HQ_telescope-mod" [
+	store_node [ "prop" "animated_prop_HQTelescopeAnimatedProp" "telescope" ]
+	]
+
+// hood_model "phase_4/models/props/SZ_fish-mod" [
+//	store_node [ "prop" "animated_prop_FishAnimatedProp" "fish" ]
+//	]
+
+hood_model "phase_3.5/models/props/trees" [
+	store_node [ "holiday_prop" "prop_tree_large_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_brickbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_brickbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_fat_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_fat_brickbox_ul" ]
+
+	store_node [ "holiday_prop" "prop_tree_large_woodbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_woodbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_woodbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_woodbox_ul" ]
+
+	store_node [ "holiday_prop" "prop_tree_large_ur" "prop_tree_large_no_box_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_ul" "prop_tree_large_no_box_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_ur" "prop_tree_small_nobox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_ul" "prop_tree_small_no_box_ul" ]
+	store_node [ "holiday_prop" "prop_tree_fat_ur" "prop_tree_fat_no_box_ur" ]
+	store_node [ "holiday_prop" "prop_tree_fat_ul" "prop_tree_fat_no_box_ul" ]
+	]
+    
+store_texture [ "texture" "street_street_TT_tex"	
+		"phase_3.5/maps/cobblestone_brown.png"		]
+store_texture [ "texture" "street_sidewalk_TT_tex"
+		"phase_3.5/maps/sidewalk_4cont_brown.png"	]
+store_texture [ "texture" "street_curb_TT_tex"
+		"phase_3.5/maps/curb_brown_even.png"	]
+
+// TODO: Find the TTF for this, or a good substitute
+store_font [ "font" "TT_Comedy"
+             "phase_3/fonts/Comedy.ttf" ]
+
+hood_model "phase_4/models/props/signs_TTC" [
+	store_node [ "sign" "TTC_sign1" ]
+	store_node [ "sign" "TTC_sign2" ]
+	store_node [ "sign" "TTC_sign3" ]
+	]
+	
+hood_model "phase_4/models/props/ttht_m_ara_ttc_buildingSigns" [
+	store_node [ "sign" "TT_sign_sz_schoolhouse" ]
+	store_node [ "sign" "TT_sign_2301" ]
+	store_node [ "sign" "TT_sign_2302" ]
+	store_node [ "sign" "TT_sign_2316" ]
+	store_node [ "sign" "TT_sign_2320" ]
+	store_node [ "sign" "TT_sign_2324" ]
+	store_node [ "sign" "TT_sign_2365" ]
+	store_node [ "sign" "TT_sign_2368" ]
+]
+    
+hood_model "phase_4/models/props/ttrm_m_ara_ttc_buildingSigns" [
+    store_node [ "sign" "TT_signFE01" ]
+    store_node [ "sign" "TT_signFE02" ]
+]
+
+hood_model "phase_3.5/models/props/streetlight_TT" [
+	store_node [ "holiday_prop" "prop_post_sign" ]
+	store_node [ "holiday_prop" "prop_post_one_light" ]
+	store_node [ "holiday_prop" "prop_post_three_light" ]
+	]
+	
+hood_model "phase_4/models/props/ttht_m_ara_ttc_prop_tables" [
+    store_node ["prop" "prop_sip_outdoor_table_blue_1" "sip_outdoor_table_blue_1"]
+    store_node ["prop" "prop_sip_outdoor_table_blue_2" "sip_outdoor_table_blue_2"]
+    store_node ["prop" "prop_sip_outdoor_table_red_1" "sip_outdoor_table_red_1"]
+    store_node ["prop" "prop_sip_outdoor_table_red_2" "sip_outdoor_table_red_2"]
+]
+
+hood_model "phase_3.5/models/props/big_planter" [
+	store_node [ "prop" "prop_big_planter" "" ]
+        ]
+
+hood_model "phase_4/models/props/toontown_central_fountain" [
+	store_node [ "prop" "prop_toontown_central_fountain" "" ]
+        ]
+hood_model "phase_4/models/props/ttht_m_ara_ttc_bench" [
+	store_node [ "prop" "prop_ttht_m_ara_ttc_bench" "" ]
+]
+
+hood_model "phase_4/models/props/mickey_on_horse" [
+	store_node [ "prop" "prop_mickey_on_horse" "" ]
+        ]
+
+hood_model "phase_4/models/props/goofy_statue" [
+	store_node [ "prop" "prop_goofy_statue" "" ]
+        ]
+
+hood_model "phase_4/models/props/tt_m_ara_gen_sillyMeterSign" [
+	store_node [ "prop" "prop_tt_m_ara_gen_sillyMeterSign" "" ]
+        ]
+
+hood_model "phase_4/models/props/tt_m_ara_gen_victorySoonSign" [
+	store_node [ "prop" "prop_tt_m_ara_gen_victorySoonSign" "" ]
+        ]
+        
+hood_model "phase_4/models/props/tt_m_ara_gen_victoryPartySign" [
+	store_node [ "prop" "prop_tt_m_ara_gen_victoryPartySign" "" ]
+        ]
+
+hood_model "phase_4/models/props/tt_m_ara_gen_stormSellbotSign" [
+	store_node [ "prop" "prop_tt_m_ara_gen_stormSellbotSign" "" ]
+        ]
+
+hood_model "phase_4/models/props/tt_m_ara_gen_jellybeanJamSign" [
+	store_node [ "prop" "prop_tt_m_ara_gen_jellybeanJamSign" "" ]
+        ]
+
+hood_model "phase_4/models/props/tt_m_ara_gen_foreSign" [
+	store_node [ "prop" "prop_tt_m_ara_gen_foreSign" "" ]
+        ]
+
+hood_model "phase_4/models/props/tt_m_ara_gen_tunnelAheadSign" [
+	store_node [ "prop" "prop_tt_m_ara_gen_tunnelAheadSign" "" ]
+        ]
+
+hood_model "phase_4/models/modules/TT_pond" [
+	store_node [ "street" "street_TT_pond" "" ]
+	]
+
+hood_model "phase_5/models/props/safe" [
+	store_node [ "prop" "prop_TT_safe" "safe" ]
+	]
+
+hood_model "phase_5/models/props/diner_entrance" [
+	store_node [ "prop" "prop_diner_entrance" "" ]
+	]
+
+hood_model "phase_5/models/props/store_display_items" [
+        store_node [ "prop" "cloth_1" ]
+        store_node [ "prop" "cloth" ]
+        store_node [ "prop" "music_inst" ]
+        store_node [ "prop" "office_furniture" ]
+        store_node [ "prop" "toys" ]
+        store_node [ "prop" "house_needs" ]
+        store_node [ "prop" "tailor_shop" ]
+        store_node [ "prop" "art_store" ]
+        store_node [ "prop" "winter_sports" ]
+        store_node [ "prop" "sport_store" "sport_sotre"]
+        store_node [ "prop" "flower_shop" ]
+        store_node [ "prop" "gallery1" ]
+        store_node [ "prop" "gallery2" ]
+        ]
+
+hood_model "phase_3.5/models/modules/facade_b" [
+	store_node [ "prop" "prop_facade_b" "" ]
+	]
+hood_model "phase_5/models/modules/TT_A2" [
+	store_node [ "toon_landmark" "toon_landmark_TT_A2" "TT_A2"  ]
+	]
+hood_model "phase_5/models/modules/TT_A3" [
+	store_node [ "toon_landmark" "toon_landmark_TT_A3" "TT_A3"  ]
+	]
+hood_model "phase_5/models/modules/TT_B1" [
+	store_node [ "toon_landmark" "toon_landmark_TT_B1" "TT_B1"  ]
+	]
+hood_model "phase_5/models/modules/TT_B2" [
+	store_node [ "toon_landmark" "toon_landmark_TT_B2" "TT_B2"  ]
+	]
+hood_model "phase_5/models/modules/TT_C1" [
+	store_node [ "toon_landmark" "toon_landmark_TT_C1" "TT_C1"  ]
+	]
+
+hood_model "phase_6/models/golf/picnic_table" [
+	store_node [ "prop" "prop_picnic_table" "" ]
+	]
+
+hood_model "phase_5/models/char/tt_r_ara_ttc_hydrant" [
+	store_node [ "anim_prop" "animated_prop_generic_phase_5_models_char__ttc_hydrant" ""]
+	]
+
+hood_model "phase_5/models/char/tt_r_ara_ttc_mailbox" [
+	store_node [ "anim_prop" "animated_prop_generic_phase_5_models_char__ttc_mailbox" ""]
+	]
+
+hood_model "phase_5/models/char/tt_r_ara_ttc_trashcan" [
+	store_node [ "anim_prop" "animated_prop_generic_phase_5_models_char__ttc_trashcan" ""]
+	]
+
+// Beta Assets
+hood_model "phase_14.5/models/props/trees" [
+    store_node [ "holiday_prop" "prop_tree_large_brickbox_ur_beta" ]
+	store_node [ "holiday_prop" "prop_tree_large_woodbox_ur_beta" ]
+	store_node [ "holiday_prop" "prop_tree_large_no_box_ur_beta" ]
+
+	store_node [ "holiday_prop" "prop_tree_small_brickbox_ur_beta" ]
+	store_node [ "holiday_prop" "prop_tree_small_woodbox_ur_beta" ]
+	store_node [ "holiday_prop" "prop_tree_small_no_box_ur_beta" ]
+
+	store_node [ "holiday_prop" "prop_tree_large_brickbox_ul_beta" ]
+	store_node [ "holiday_prop" "prop_tree_large_woodbox_ul_beta" ]
+	store_node [ "holiday_prop" "prop_tree_large_no_box_ul_beta" ]
+
+	store_node [ "holiday_prop" "prop_tree_small_brickbox_ul_beta" ]
+	store_node [ "holiday_prop" "prop_tree_small_woodbox_ul_beta" ]
+	store_node [ "holiday_prop" "prop_tree_small_no_box_ul_beta" ]
+	]
+
+place_model "phase_14.5/models/props/mailbox_TT" [
+	store_node [ "prop" "prop_mailbox_TT_beta" "" ]
+	]
+
+store_texture [ "texture" "street_street_TT_tex_beta"
+		"phase_14.5/maps/beta/sidewalk2.png" ]
+store_texture [ "texture" "street_sidewalk_TT_tex_beta"
+		"phase_14.5/maps/beta/brick_floorBrown.png" ]
+
+

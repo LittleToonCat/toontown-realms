@@ -1,0 +1,10 @@
+{
+    "name": "dreamy drive web npc pics",
+	"storage_files": [
+		"phase_8/dna/ttrm_d_strg_ddl.dna",
+		"phase_8/dna/ttrm_d_strg_ddl_sz.dna",
+		"phase_8/dna/ttrm_d_strg_ddl_town.dna"
+	],
+	"dna_file": "phase_8/dna/ttrm_d_ara_ddl_9400.dna",
+    "sky_model": "phase_8/models/props/DL_sky"
+}
