@@ -16,13 +16,8 @@ Pull Requests that improve, update, finish, or fix any aspect of the game are we
 **Panda3D**
 ================
 
-Toontown Realms uses a unique version of Panda3D. Please go download it at the link for your operating system below in order to run the game.
-
-Windows: [Panda3D SDK for Windows (x86_64)](https://hostiletakeover.co/dl/realms/Panda3D-TTRMDev-1.11.0-py3.14-x64.exe) (COMING SOON)
-
-Linux: Install [this python wheel](https://hostiletakeover.co/dl/realms/panda3d-1.11.0-cp314-cp314-linux_x86_64.whl) onto a Python 3.14 installation.
-
-Engine Source: [our own Panda3D repository.](https://github.com/ttoff/panda3d/tree/beta2-engine) - (beta2-engine branch required)
+Toontown Realms uses a unique version of Panda3D. 
+https://github.com/ttoff/panda3d
 
 **Credits**
 ================
